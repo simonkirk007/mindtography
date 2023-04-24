@@ -233,6 +233,7 @@
     {{ 'hover-min.css' | asset_url | stylesheet_tag }}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     {{ 'style.css' | asset_url | stylesheet_tag }}
+    {{ 'custom-style.css' | asset_url | stylesheet_tag }}
 
 
     {%- unless settings.type_body_font.system? -%}
