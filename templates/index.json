@@ -18,10 +18,31 @@
         "button_text": "Collections",
         "button_link": ""
       }
+    },
+    "ea1469c3-8492-4179-9859-c158a6b0a43c": {
+      "type": "cus-about-sec",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about-img.jpg",
+        "sub_title": "Collections",
+        "title": "Collections",
+        "button_text": "Collections",
+        "button_link": ""
+      }
+    },
+    "5b13f60c-000f-448c-8a06-fa99c46dd52f": {
+      "type": "cus-content-slider",
+      "settings": {
+        "sub_title": "Collections",
+        "title": "Collections",
+        "button_text": "Collections",
+        "button_link": ""
+      }
     }
   },
   "order": [
     "67f45704-b28f-46d7-9c95-f8d80b7e7b78",
-    "013a8add-8d35-4c6d-aea8-039d791b5621"
+    "013a8add-8d35-4c6d-aea8-039d791b5621",
+    "ea1469c3-8492-4179-9859-c158a6b0a43c",
+    "5b13f60c-000f-448c-8a06-fa99c46dd52f"
   ]
 }
