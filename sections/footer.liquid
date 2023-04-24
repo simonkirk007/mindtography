@@ -8,27 +8,87 @@
   {{ 'component-localization-form.css' | asset_url | stylesheet_tag }}
 {%- endif -%}
 
-{%- style -%}
-  .footer {
-    margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
-  }
+<footer class="footer ">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-4 ">
+                <div class="footer-info">
+                    <a href="index.html">
+                        <img src="assets/images/logo.png" alt="Logo">
+                    </a>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book. It has survived not
+                        only five centuries, but also the leap into electronic typesetting, remaining essentially
+                        unchanged.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-2 ">
+                <div class="footer__nav">
+                    <h6>QUick Links</h6>
+                    <ul>
+                        <li><a href="#">Lorem Ipsum Dolor</a></li>
+                        <li><a href="#">Lorem Ipsum Dolor</a></li>
+                        <li><a href="#">Lorem Ipsum Dolor</a></li>
+                        <li><a href="#">Lorem Ipsum Dolor</a></li>
+                        <li><a href="#">Lorem Ipsum Dolor</a></li>
+                        <li><a href="#">Lorem Ipsum Dolor</a></li>
 
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 ">
+                <div class="footer__nav">
+                    <h6>Quick Links</h6>
+                    <ul>
+                        <li><a href="#">Lorem Ipsum Dolor</a></li>
+                        <li><a href="#">Lorem Ipsum Dolor</a></li>
+                        <li><a href="#">Lorem Ipsum Dolor</a></li>
+                        <li><a href="#">Lorem Ipsum Dolor</a></li>
+                        <li><a href="#">Lorem Ipsum Dolor</a></li>
+                        <li><a href="#">Lorem Ipsum Dolor</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3">
+                <div class="footer__nav">
+                    <h6>newsletter</h6>
+                    <h5>We make non-annoying emails!</h5>
+                    <h5>Pop Your Email & we’ll Prove It</h5>
+                    <form action="#" class="footer-form">
+                        <input type="email" placeholder="Enter Your Email">
+                        <a class="btn-2" href="">Submit</a>
+                    </form>
+                </div>
+            </div>
+            <div class="col-12 ">
+                <div class="footer__copyright">
+                    <p>Copyrights © 2023 kennykenglomerate.com - All Rights Reserved.</p>
+                    <div class="pay-img">
+                        <a href="">
+                            <img src="assets/images/copy-1.png" alt="">
 
-  @media screen and (min-width: 750px) {
-    .footer {
-      margin-top: {{ section.settings.margin_top }}px;
-    }
+                        </a>
+                        <a href="">
+                            <img src="assets/images/copy-2.png" alt="">
 
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
-  }
-{%- endstyle -%}
+                        </a> <a href="">
+                            <img src="assets/images/copy-3.png" alt="">
+
+                        </a> <a href="">
+                            <img src="assets/images/copy-4.png" alt="">
+
+                        </a> <a href="">
+                            <img src="assets/images/copy-5.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="assets/images/copy-6.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   {%- liquid
