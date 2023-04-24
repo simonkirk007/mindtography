@@ -1,0 +1,73 @@
+<section class="about-sec bg-sec">
+    <div class="container">
+        <div class="row g-0 align-items-stretch">
+            <div class="col-md-6">
+                <div class="about-img">
+                    <img src="assets/images/about-img.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="about-content bg-2 ">
+                    <div>
+                        <h3>ABOUT US</h3>
+                        <p>Since the beginning of time, all cultures have found the importance of myths threading the
+                            reality of human conditioning with imagination. Art has allowed our minds to capture
+                            glimpses of
+                            the past, present, and yet in some cases predicting our future. Is it a gift or a curse? The
+                            answer will define you. Artists are a rare breed of individuals.We are gifted with the
+                            ability
+                            to spark thoughts that speak to the soul, with the heart to dare to be different running in
+                            our
+                            veins.  </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% schema %}
+    {
+      "name": "Cus About Sec",
+      "tag": "section",
+      "class": "announcement-bar-section",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+        },
+        {
+          "type": "text",
+          "id": "sub_title",
+          "default": "Collections",
+          "label": "Sub Title"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "default": "Collections",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "default": "Collections",
+          "label": "Button Text"
+        },
+        {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button Link"
+          }
+    ],
+    "presets": [
+        {
+          "name": "Cus About Sec"
+        }
+      ]
+    }
+    {% endschema %}
