@@ -11,3 +11,6 @@ footer {
   .newsletter-form__field-wrapper .field::after {
     display: none;
   }
+  .about-content.bg-2 h3{
+    color: #fff;
+  }
