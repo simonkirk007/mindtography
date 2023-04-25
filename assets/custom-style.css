@@ -1,3 +1,10 @@
 footer {
     font-size: 16px;
 }
+
+.newsletter-form__field-wrapper #Subscribe {
+    background-color: var(--c1);
+    border-radius: 15px;
+    color: #fff;
+    border: unset;
+  }
