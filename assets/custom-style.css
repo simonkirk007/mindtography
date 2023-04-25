@@ -8,4 +8,6 @@ footer {
     color: #fff;
     border: unset;
   }
-  
+  .newsletter-form__field-wrapper .field::after {
+    display: none;
+  }
