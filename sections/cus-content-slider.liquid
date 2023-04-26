@@ -1,6 +1,6 @@
 <section class="content-slider-sec py-5 my-5">
     <div class="container">
-        <div class="row g-0 align-items-stretch">
+        <div class="row g-0 align-items-stretch {% if settings.my_select_field == 'option2' %} flex-row-reverse{% endif %}">
             <div class="col-md-6">
                 <div class="image-slider-main">
                   
@@ -103,15 +103,15 @@
         {
           "type": "select",
           "id": "my_select_field",
-          "label": "My Select Field",
+          "label": "Image Position",
           "options": [
             {
               "value": "option1",
-              "label": "Option 1"
+              "label": "Image Left"
             },
             {
               "value": "option2",
-              "label": "Option 2"
+              "label": "Image Right"
             }
           ]
         }
