@@ -14,3 +14,7 @@ footer {
   .about-content.bg-2 h3{
     color: #fff;
   }
+
+.product-content h6 {
+    font-size: 16px;
+}
