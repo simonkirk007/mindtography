@@ -1,6 +1,6 @@
 <section class="content-slider-sec py-5 my-5">
     <div class="container">
-        <div class="row g-0 align-items-stretch {% if settings.my_select_field == 'option2' %} flex-row-reverse {% endif %}">
+        <div class="row g-0 align-items-stretch {% case settings.my_select_field %} {% when 'option1' %} flex-row-reverse {% endcase %}">
             <div class="col-md-6">
                 <div class="image-slider-main">
                   
