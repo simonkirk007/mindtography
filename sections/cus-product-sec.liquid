@@ -14,10 +14,10 @@
                         <div class="wishlist">
                             <i class="far fa-heart"></i>
                         </div>
-                        <img src="assets/images/product-img-1.png" alt="">
+                        <img src="{{ product.featured_image.src | img_url: 'large' }}" alt="">
                     </div>
                     <div class="product-content">
-                        <h3>Place Your Tilte Here</h3>
+                        <h3>{{ product.title }}</h3>
                         <div class="rating">
                             <ul>
                                 <li><i class="fa fa-star"></i></li>
@@ -28,7 +28,7 @@
 
                             </ul>
                         </div>
-                        <h6>$00.00</h6>
+                        <h6>{{ product.price | money }}</h6>
                         <div class="product-btn">
                             <a class="btn" href="{{ product.url }}"><i class="far fa-plus"></i></a>
                         </div>
