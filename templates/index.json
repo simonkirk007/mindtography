@@ -65,8 +65,8 @@
         "05f632ab-104d-4726-89d7-49c171342605"
       ],
       "settings": {
-        "button_text": "Collections",
-        "button_link": ""
+        "button_text": "view all",
+        "button_link": "#"
       }
     }
   },
