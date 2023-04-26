@@ -66,8 +66,7 @@
       ],
       "settings": {
         "button_text": "view all",
-        "button_link": "#",
-        "my_select_field": "option2"
+        "button_link": "#"
       }
     }
   },
