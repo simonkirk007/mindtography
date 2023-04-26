@@ -3,15 +3,14 @@
         <div class="row g-0 align-items-stretch">
             <div class="col-md-6">
                 <div class="image-slider-main">
+                  
+                  {%- for block in section.blocks -%}
                     <div class="image-slider">
-                        <img src="assets/images/contebt-slider-img.png" alt="">
+                        <img src="{{ block.settings.image }}" alt="">
                     </div>
-                    <div class="image-slider">
-                        <img src="assets/images/contebt-slider-img.png" alt="">
-                    </div>
-                    <div class="image-slider">
-                        <img src="assets/images/contebt-slider-img.png" alt="">
-                    </div>
+                  {%- endfor -%}
+
+                  
                 </div>
 
             </div>
