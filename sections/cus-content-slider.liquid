@@ -110,42 +110,25 @@
               "label": "Title"
             },
             {
-              "type": "text",
-              "id": "price_regular",
-              "default": "Collections",
-              "label": "Price Regular"
+              "type": "richtext",
+              "id": "content",
+              "default": "<p>Collections</p>",
+              "label": "Content"
             },
             {
               "type": "text",
-              "id": "price_sale",
+              "id": "button_text",
               "default": "Collections",
-              "label": "Price Sale"
+              "label": "Button Title"
             }, {
               "type": "url",
-              "id": "product_url",
-              "label": "Price Link"
+              "id": "button_url",
+              "label": "Button URL"
             }
           ]
         }
       ],
       "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "t:sections.multicolumn.blocks.column.settings.image.label"
-        },
-        {
-          "type": "text",
-          "id": "sub_title",
-          "default": "Collections",
-          "label": "Sub Title"
-        },
-        {
-          "type": "text",
-          "id": "title",
-          "default": "Collections",
-          "label": "Title"
-        },
         {
           "type": "text",
           "id": "button_text",
@@ -153,10 +136,10 @@
           "label": "Button Text"
         },
         {
-            "type": "url",
-            "id": "button_link",
-            "label": "Button Link"
-          }
+          "type": "url",
+          "id": "button_link",
+          "label": "Button Link"
+        }
     ],
     "presets": [
         {
@@ -164,7 +147,11 @@
           "blocks": [
           {
             "type": "column"
-          }, {
+          }, 
+          {
+            "type": "column"
+          },
+          {
             "type": "column"
           }
         ]
