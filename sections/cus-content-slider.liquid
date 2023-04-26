@@ -20,24 +20,8 @@
                     <div>
                         <a href="#" class="view-all-btn btn-link">view all</a>
                         <div class="content-slider-main slick-top-btns">
-                            <div>
-                                <div class="content-slider-item-inner">
-                                    <div class="slider-sec-content ">
-                                        <h3>PLACE YOUR TITLE HERE</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                            Lorem
-                                            Ipsum
-                                            has
-                                            been the industry's standard dummy text ever since the 1500s, when an
-                                            unknown
-                                            printer
-                                            took a
-                                            galley of type and scrambled it to make a type specimen book. It has </p>
-                                        <a href="#" class="btn">learn more</a>
-                                    </div>
-                                </div>
-                            </div>
 
+                          {%- for block in section.blocks -%}
                             <div>
                                 <div class="content-slider-item-inner">
                                     <div class="slider-sec-content ">
@@ -55,24 +39,8 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <div>
-                                <div class="content-slider-item-inner">
-                                    <div class="slider-sec-content ">
-                                        <h3>PLACE YOUR TITLE HERE</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                            Lorem
-                                            Ipsum
-                                            has
-                                            been the industry's standard dummy text ever since the 1500s, when an
-                                            unknown
-                                            printer
-                                            took a
-                                            galley of type and scrambled it to make a type specimen book. It has </p>
-                                        <a href="#" class="btn">learn more</a>
-                                    </div>
-                                </div>
-                            </div>
+                        {%- endfor -%}
+                            
 
 
                         </div>
