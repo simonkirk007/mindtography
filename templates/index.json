@@ -4,25 +4,22 @@
       "type": "cus-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/back-image.png",
-        "sub_title": "Collections",
-        "title": "Collections",
-        "button_text": "Collections",
+        "sub_title": "Welcome To our website",
+        "title": "<span>CONTEMPORARY ART<\/span> Transform Your Living Space",
+        "button_text": "-",
         "button_link": ""
       }
     },
     "013a8add-8d35-4c6d-aea8-039d791b5621": {
       "type": "cus-product-sec",
       "settings": {
-        "sub_title": "Collections",
         "title": "Collections",
-        "button_text": "Collections",
-        "button_link": ""
+        "collection": ""
       }
     },
     "ea1469c3-8492-4179-9859-c158a6b0a43c": {
       "type": "cus-about-sec",
       "settings": {
-        "image": "shopify:\/\/shop_images\/about-img.jpg",
         "title": "ABOUT US",
         "content": "<p>Since the beginning of time, all cultures have found the importance of myths threading the reality of human conditioning with imagination. Art has allowed our minds to capture glimpses of the past, present, and yet in some cases predicting our future. Is it a gift or a curse? The answer will define you. Artists are a rare breed of individuals.We are gifted with the ability to spark thoughts that speak to the soul, with the heart to dare to be different running in our veins.<\/p>"
       }
