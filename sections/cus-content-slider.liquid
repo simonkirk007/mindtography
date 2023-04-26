@@ -18,7 +18,7 @@
             <div class="col-md-6">
                 <div class="content-slider-content-wraper">
                     <div>
-                        <a href="#" class="view-all-btn btn-link">view all</a>
+                        <a href="{{ section.settings.button_url }}" class="view-all-btn btn-link">{{ section.settings.button_text }}</a>
                         <div class="content-slider-main slick-top-btns">
 
                           {%- for block in section.blocks -%}
