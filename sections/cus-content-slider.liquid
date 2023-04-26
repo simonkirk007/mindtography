@@ -6,7 +6,7 @@
                   
                   {%- for block in section.blocks -%}
                     <div class="image-slider">
-                        <img src="{{ block.settings.image }}" alt="">
+                        <img src="{{ block.settings.image | img_url: 'master' }}" alt="">
                     </div>
                   {%- endfor -%}
 
