@@ -28,6 +28,12 @@
                         <div class="product-btn">
                             <a class="btn" href="product-detail.php"><i class="far fa-plus"></i></a>
                         </div>
+                      {% if product.available %}
+                      {% if customer %}
+                        <button onclick="addToWishlist({{ product.id }})">Add to Wishlist</button>
+                      
+                      {% endif %}
+                    {% endif %}
                     </div>
                 </div>
             </div>
