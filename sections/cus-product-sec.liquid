@@ -1,9 +1,13 @@
 <section class="products-sec">
     <div class="container">
         <div class="title">
-            <h2>Featured Products</h2>
+            <h2>{{ section.settings.title }}</h2>
         </div>
         <div class="row product-slider slick-top-btns">
+
+
+           {% assign selected_collection = section.settings.collection %}
+        {% for product in collections[selected_collection].products %}
             <div class="col-md-3">
                 <div class="product-item">
                     <div class="product-inner-item">
@@ -37,196 +41,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="product-item">
-                    <div class="product-inner-item">
-                        <div class="wishlist">
-                            <i class="far fa-heart"></i>
-                        </div>
-                        <img src="assets/images/product-img-2.png" alt="">
-                    </div>
-                    <div class="product-content">
-                        <h3>Place Your Tilte Here</h3>
-                        <div class="rating">
-                            <ul>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-
-                            </ul>
-                        </div>
-                        <h6>$00.00</h6>
-                        <div class="product-btn">
-                            <a class="btn" href="product-detail.php"><i class="far fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="product-item">
-                    <div class="product-inner-item">
-                        <div class="wishlist">
-                            <i class="far fa-heart"></i>
-                        </div>
-                        <img src="assets/images/product-img-3.png" alt="">
-                    </div>
-                    <div class="product-content">
-                        <h3>Place Your Tilte Here</h3>
-                        <div class="rating">
-                            <ul>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-
-                            </ul>
-                        </div>
-                        <h6>$00.00</h6>
-                        <div class="product-btn">
-                            <a class="btn" href="product-detail.php"><i class="far fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="product-item">
-                    <div class="product-inner-item">
-                        <div class="wishlist">
-                            <i class="far fa-heart"></i>
-                        </div>
-                        <img src="assets/images/product-img-4.png" alt="">
-                    </div>
-                    <div class="product-content">
-                        <h3>Place Your Tilte Here</h3>
-                        <div class="rating">
-                            <ul>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-
-                            </ul>
-                        </div>
-                        <h6>$00.00</h6>
-                        <div class="product-btn">
-                            <a class="btn" href="product-detail.php"><i class="far fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="product-item">
-                    <div class="product-inner-item">
-                        <div class="wishlist">
-                            <i class="far fa-heart"></i>
-                        </div>
-                        <img src="assets/images/product-img-1.png" alt="">
-                    </div>
-                    <div class="product-content">
-                        <h3>Place Your Tilte Here</h3>
-                        <div class="rating">
-                            <ul>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-
-                            </ul>
-                        </div>
-                        <h6>$00.00</h6>
-                        <div class="product-btn">
-                            <a class="btn" href="product-detail.php"><i class="far fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="product-item">
-                    <div class="product-inner-item">
-                        <div class="wishlist">
-                            <i class="far fa-heart"></i>
-                        </div>
-                        <img src="assets/images/product-img-2.png" alt="">
-                    </div>
-                    <div class="product-content">
-                        <h3>Place Your Tilte Here</h3>
-                        <div class="rating">
-                            <ul>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-
-                            </ul>
-                        </div>
-                        <h6>$00.00</h6>
-                        <div class="product-btn">
-                            <a class="btn" href="product-detail.php"><i class="far fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="product-item">
-                    <div class="product-inner-item">
-                        <div class="wishlist">
-                            <i class="far fa-heart"></i>
-                        </div>
-                        <img src="assets/images/product-img-3.png" alt="">
-                    </div>
-                    <div class="product-content">
-                        <h3>Place Your Tilte Here</h3>
-                        <div class="rating">
-                            <ul>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-
-                            </ul>
-                        </div>
-                        <h6>$00.00</h6>
-                        <div class="product-btn">
-                            <a class="btn" href="product-detail.php"><i class="far fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="product-item">
-                    <div class="product-inner-item">
-                        <div class="wishlist">
-                            <i class="far fa-heart"></i>
-                        </div>
-                        <img src="assets/images/product-img-4.png" alt="">
-                    </div>
-                    <div class="product-content">
-                        <h3>Place Your Tilte Here</h3>
-                        <div class="rating">
-                            <ul>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-
-                            </ul>
-                        </div>
-                        <h6>$00.00</h6>
-                        <div class="product-btn">
-                            <a class="btn" href="product-detail.php"><i class="far fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          {% endfor %}
+            
 
 
         </div>
