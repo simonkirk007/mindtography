@@ -4,6 +4,45 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "84bf1296-d761-40cc-8fc7-b4dcdf81b509": {
+          "type": "column",
+          "settings": {
+            "image_product": "shopify:\/\/shop_images\/copy-1.png"
+          }
+        },
+        "7bc965b7-5978-4859-82cd-97505f724d14": {
+          "type": "column",
+          "settings": {
+            "image_product": "shopify:\/\/shop_images\/copy-2.png"
+          }
+        },
+        "07356fe5-221c-4998-8468-7d7478a11f89": {
+          "type": "column",
+          "settings": {
+            "image_product": "shopify:\/\/shop_images\/copy-3.png"
+          }
+        },
+        "ebc9bd5a-2e88-4a9f-bb66-b822ff8c30b1": {
+          "type": "column",
+          "settings": {
+            "image_product": "shopify:\/\/shop_images\/copy-4.png"
+          }
+        },
+        "bc2bfea3-d748-472e-9615-4950b646b0d0": {
+          "type": "column",
+          "settings": {
+            "image_product": "shopify:\/\/shop_images\/copy-6.png"
+          }
+        }
+      },
+      "block_order": [
+        "84bf1296-d761-40cc-8fc7-b4dcdf81b509",
+        "7bc965b7-5978-4859-82cd-97505f724d14",
+        "07356fe5-221c-4998-8468-7d7478a11f89",
+        "ebc9bd5a-2e88-4a9f-bb66-b822ff8c30b1",
+        "bc2bfea3-d748-472e-9615-4950b646b0d0"
+      ],
       "settings": {
         "footer_logo": "shopify:\/\/shop_images\/logo.png",
         "content": "<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<\/p>",
