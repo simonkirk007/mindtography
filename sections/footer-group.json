@@ -6,17 +6,14 @@
       "type": "footer",
       "settings": {
         "footer_logo": "shopify:\/\/shop_images\/logo.png",
-        "content": "<p>Collections<\/p>",
-        "menu_title": "Collections",
+        "content": "<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<\/p>",
+        "menu_title_1": "Collections",
         "footer_menu": "main-menu",
+        "menu_title_2": "Collections",
         "footer_menu_2": "main-menu",
-        "quick_title": "Collections",
-        "quick_address": "Collections",
-        "quick_address_link": "",
-        "quick_phone": "Collections",
-        "quick_email": "Collections",
         "subs_title": "Collections",
         "subs_content": "Collections",
+        "subs_content_2": "Collections",
         "copy_text": "<p>Collections<\/p>"
       }
     }
