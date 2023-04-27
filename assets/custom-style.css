@@ -54,3 +54,8 @@ footer {
 .product__info-container .price {
   margin-bottom: -10px !important;
 }
+.product__title h1 {
+  font-family: "Poppins";
+  font-size: 50px;
+  font-weight: 400;
+}
