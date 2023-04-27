@@ -63,3 +63,32 @@ footer {
 .product__info-container .product--thumbnail_slider .product__media-list {
   margin-bottom: 5px;
 }
+
+
+
+.product__info-container .product__title h1 {
+  font-family: "Poppins";
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.product__info-container .product--thumbnail_slider .product__media-list {
+  margin-bottom: 5px;
+}
+
+.product__info-container fieldset.product-form__input .form__label {
+  font-size: 22px;
+  color: #999;
+  margin: 16px 0px 0;
+}
+
+.product__info-container .product-form__input input[type=radio]+label {
+  background-color: #faf4f4;
+  border-radius: 10px;
+  border: unset;
+}
+
+.product__info-container .product-form__input input[type=radio]:checked+label {
+  background-color: #fbebb5;
+  color: #000;
+}
