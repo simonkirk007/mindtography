@@ -15,13 +15,13 @@
     }
   }
 {%- endstyle -%}
-
+<div class="related-wrap">
 <div class="color-{{ section.settings.color_scheme }} gradient no-js-hidden">
   <product-recommendations
     class="related-section related-section-{{ section.id }}-padding isolate"
     data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ section.settings.products_to_show }}"
   >
-  <div class="related-wrap container">
+  <div class="container">
     
   
     {% if recommendations.performed and recommendations.products_count > 0 %}
@@ -48,7 +48,7 @@
     </div>
   </product-recommendations>
 </div>
-
+</div>
 {% schema %}
 {
   "name": "t:sections.related-products.name",
