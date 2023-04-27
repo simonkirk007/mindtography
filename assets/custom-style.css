@@ -125,3 +125,8 @@ footer {
 .button:after {
   border-radius: 10px;
 }
+
+product-recommendations {
+  padding: 70px 0;
+  background-color: rgb(221 116 13 / 10%);
+}
