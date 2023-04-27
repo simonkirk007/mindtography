@@ -45,6 +45,13 @@
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false
           }
+        },
+        "197540f4-4723-4598-a928-9ce3031df580": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.reviews.rating | metafield_tag }}",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
@@ -54,7 +61,8 @@
         "description",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "197540f4-4723-4598-a928-9ce3031df580"
       ],
       "settings": {
         "enable_sticky_info": false,
