@@ -25,3 +25,12 @@ footer {
 .product-inner-item img {
   border-radius: 12px;
 }
+.facet-wrap {
+  margin-bottom: 30px;
+  background: #dd740d40;
+  padding: 20px 50px;
+  border-radius: 20px;
+}
+.facet-wrap .facets__summary {
+  margin: 0;
+}
