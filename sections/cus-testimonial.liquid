@@ -1,13 +1,13 @@
 <section class="testimonial-sec py-5">
     <div class="title text-center">
-        <h2>WHAT OUR CLIENT SAY’S</h2>
+        <h2>{{ section.settings.title }}</h2>
     </div>
     <div class="container">
         <div class="row">
 
 
 
-
+        {%- for block in section.blocks -%}
             <div class="col-lg-3 col-md-6">
                 <div class="testimonial-item">
                     <div class="testimonial-content-item">
@@ -15,13 +15,13 @@
                             <div class="testimoial-bottom">
                                 <div class="testimonial-img">
 
-                                    <img src="https://demo-gds.com/minunraha-3213/wp-content/uploads/2023/03/Ellipse-1.png"
+                                    <img src="{{ block.settings.image_product | img_url: 'master' }}"
                                         alt="">
 
                                 </div>
                                 <div class="testimonial-name">
 
-                                    <h3>Monique Greer</h3>
+                                    <h3>{{ block.settings.title }}</h3>
                                     <ul class="rating">
                                         <li><i class="fas fa-star"></i></li>
                                         <li><i class="fas fa-star"></i></li>
@@ -32,11 +32,7 @@
                                 </div>
 
                             </div>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's standard dummy</p>
-
-
-
+                            {{ block.settings.content }}
                         </div>
                     </div>
 
@@ -45,117 +41,10 @@
                 </div>
 
             </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="testimonial-item">
-                    <div class="testimonial-content-item">
-                        <div class="testimonial-content-inner">
-                            <div class="testimoial-bottom">
-                                <div class="testimonial-img">
-
-                                    <img src="https://demo-gds.com/minunraha-3213/wp-content/uploads/2023/03/Ellipse-1-1.png"
-                                        alt="">
-
-                                </div>
-                                <div class="testimonial-name">
-
-                                    <h3>Monique Greer</h3>
-                                    <ul class="rating">
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                    </ul>
-                                </div>
-
-                            </div>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's standard dummy</p>
-
-
-
-                        </div>
-                    </div>
-
-
-
-                </div>
-
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="testimonial-item">
-                    <div class="testimonial-content-item">
-                        <div class="testimonial-content-inner">
-                            <div class="testimoial-bottom">
-                                <div class="testimonial-img">
-
-                                    <img src="https://demo-gds.com/minunraha-3213/wp-content/uploads/2023/03/Ellipse-1-2.png"
-                                        alt="">
-
-                                </div>
-                                <div class="testimonial-name">
-
-                                    <h3>Monique Greer</h3>
-                                    <ul class="rating">
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                    </ul>
-                                </div>
-
-                            </div>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's standard dummy</p>
-
-
-
-                        </div>
-                    </div>
-
-
-
-                </div>
-
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="testimonial-item">
-                    <div class="testimonial-content-item">
-                        <div class="testimonial-content-inner">
-                            <div class="testimoial-bottom">
-                                <div class="testimonial-img">
-
-                                    <img src="https://demo-gds.com/minunraha-3213/wp-content/uploads/2023/03/Ellipse-1577.png"
-                                        alt="">
-
-                                </div>
-                                <div class="testimonial-name">
-
-                                    <h3>Monique Greer</h3>
-                                    <ul class="rating">
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                    </ul>
-                                </div>
-
-                            </div>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's standard dummy</p>
-
-
-
-                        </div>
-                    </div>
-
-
-
-                </div>
-
-            </div>
+        {%- endfor -%}
+            
+            
+            
 
 
 
@@ -169,39 +58,53 @@
       "name": "Cus Testimonial",
       "tag": "section",
       "class": "announcement-bar-section",
+      "blocks": [
+        {
+          "type": "column",
+          "name": "t:sections.multicolumn.blocks.column.name",
+          "settings": [
+            {
+              "type": "image_picker",
+              "id": "image_product",
+              "label": "Image"
+            },
+            {
+              "type": "text",
+              "id": "title",
+              "default": "Collections",
+              "label": "Title"
+            },
+            {
+              "type": "richtext",
+              "id": "content",
+              "default": "<p>Collections</p>",
+              "label": "Content"
+            }
+          ]
+        }
+      ],
       "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "t:sections.multicolumn.blocks.column.settings.image.label"
-        },
-        {
-          "type": "text",
-          "id": "sub_title",
-          "default": "Collections",
-          "label": "Sub Title"
-        },
         {
           "type": "text",
           "id": "title",
           "default": "Collections",
           "label": "Title"
-        },
-        {
-          "type": "text",
-          "id": "button_text",
-          "default": "Collections",
-          "label": "Button Text"
-        },
-        {
-            "type": "url",
-            "id": "button_link",
-            "label": "Button Link"
-          }
+        }
     ],
     "presets": [
         {
-          "name": "Cus Testimonial"
+          "name": "Cus Testimonial",
+          "blocks": [
+          {
+            "type": "column"
+          }, 
+          {
+            "type": "column"
+          },
+          {
+            "type": "column"
+          }
+        ]
         }
       ]
     }
