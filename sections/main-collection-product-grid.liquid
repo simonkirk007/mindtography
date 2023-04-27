@@ -103,10 +103,11 @@
       {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
         <aside
           aria-labelledby="verticalTitle"
-          class="facets-wrapper{% unless section.settings.enable_filtering %} facets-wrapper--no-filters{% endunless %}{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}"
+          class="facets-wrapper{% unless section.settings.enable_filtering %} facets-wrapper--no-filters{% endunless %}{% if section.settings.filter_type != 'vertical' %} {% endif %}"
           id="main-collection-filters"
           data-id="{{ section.id }}"
         >
+          <div class="facet-wrap container">
           {% render 'facets',
             results: collection,
             enable_filtering: section.settings.enable_filtering,
@@ -114,6 +115,8 @@
             filter_type: section.settings.filter_type,
             paginate: paginate
           %}
+          </div>
+
         </aside>
       {%- endif -%}
 
