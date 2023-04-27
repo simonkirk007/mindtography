@@ -84,55 +84,53 @@
 </section>
 
 {% schema %}
-    {
-      "name": "Cus Products Tabs",
-      "tag": "section",
-      "class": "announcement-bar-section",
-      "settings": [
-        {
+  {
+    "name": "Cus Product tabs",
+    "tag": "section",
+    "class": "announcement-bar-section",
+    "settings": [
+      {
         "type": "text",
         "id": "title",
         "default": "Collections",
         "label": "Title"
-        },
-        {
+      },
+      {
         "type": "richtext",
         "id": "content",
-        "default": "Collections",
-        "label": "Title"
-        }
-    ],
-    "blocks": [
+        "default": "<p>Collections</p>",
+        "label": "Collection"
+      },
+  ], 
+  "blocks": [
+    {
+      "type": "column",
+      "name": "t:sections.multicolumn.blocks.column.name",
+      "settings": [
       {
-        "type": "column",
-        "name": "t:sections.multicolumn.blocks.column.name",
-        "settings": [
-        {
-            "type": "collection",
-            "id": "collection",
-            "label": "t:sections.featured-collection.settings.collection.label"
-        },
-        {
-            "type": "text",
-            "id": "title",
-            "label": "Title"
-        }
-        ]
+          "type": "collection",
+          "id": "collection",
+          "label": "t:sections.featured-collection.settings.collection.label"
+      },
+      {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
       }
-    ],
-    "presets": [
-        {
-          "name": "Cus Products Tabs",
-          "blocks": [
-          {
-            "type": "column"
-          }, 
-          {
-            "type": "column"
-          }
-        ]
-        }
       ]
     }
-
-    {% endschema %}
+  ],
+  "presets": [
+      {
+        "name": "Cus Product Tabs",
+        "blocks": [
+        {
+          "type": "column"
+        }, {
+          "type": "column"
+        }
+      ]
+      }
+    ]
+  }
+  {% endschema %}
