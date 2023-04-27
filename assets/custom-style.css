@@ -148,3 +148,18 @@ h2.related-products__heading {
   margin: 0px 8px;
   color: #f3cd03;
 }
+
+
+.product__info-container .product-variant-color {
+  border: 2px solid #e1e1e1 !important;
+  border-radius: 50px !important;
+  height: 30px;
+  width: 30px !important;
+  padding: 0 !important;
+}
+
+.product__info-container .product-form__input input[type=radio]:checked+label.product-variant-color {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+  border-color: #000 !important;
+}
