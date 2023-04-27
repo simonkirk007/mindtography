@@ -85,28 +85,31 @@
         "template--18839822237999__dc12e3f2-f544-4b3e-a485-1899ca2b84b3-168251992300219dec-0": {
           "type": "column",
           "settings": {
-            "title": "Collections",
-            "content": "<p>Collections<\/p>",
-            "button_text": "Collections",
-            "button_url": ""
+            "image_product": "shopify:\/\/shop_images\/content-slider-img-2.png",
+            "title": "PLACE YOUR TITLE HERE",
+            "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has <br\/><\/p>",
+            "button_text": "learn more",
+            "button_url": "#"
           }
         },
         "template--18839822237999__dc12e3f2-f544-4b3e-a485-1899ca2b84b3-168251992300219dec-1": {
           "type": "column",
           "settings": {
-            "title": "Collections",
-            "content": "<p>Collections<\/p>",
-            "button_text": "Collections",
-            "button_url": ""
+            "image_product": "shopify:\/\/shop_images\/content-slider-img-2.png",
+            "title": "PLACE YOUR TITLE HERE",
+            "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has <br\/><\/p>",
+            "button_text": "learn more",
+            "button_url": "#"
           }
         },
         "template--18839822237999__dc12e3f2-f544-4b3e-a485-1899ca2b84b3-168251992300219dec-2": {
           "type": "column",
           "settings": {
-            "title": "Collections",
-            "content": "<p>Collections<\/p>",
-            "button_text": "Collections",
-            "button_url": ""
+            "image_product": "shopify:\/\/shop_images\/content-slider-img-2.png",
+            "title": "PLACE YOUR TITLE HERE",
+            "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has <br\/><\/p>",
+            "button_text": "learn more",
+            "button_url": "#"
           }
         }
       },
@@ -116,8 +119,8 @@
         "template--18839822237999__dc12e3f2-f544-4b3e-a485-1899ca2b84b3-168251992300219dec-2"
       ],
       "settings": {
-        "button_text": "Collections",
-        "button_link": "",
+        "button_text": "view all",
+        "button_link": "#",
         "my_select_field": "option2"
       }
     },
