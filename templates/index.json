@@ -133,11 +133,48 @@
     },
     "4006c1a2-6eab-428f-ab97-e7c1aa586db8": {
       "type": "cus-testimonial",
+      "blocks": {
+        "f6576c2b-1c16-41e5-b855-94c2629af1c0": {
+          "type": "column",
+          "settings": {
+            "image_product": "shopify:\/\/shop_images\/Ellipse-1.png",
+            "title": "Monique Greer",
+            "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy<\/p>"
+          }
+        },
+        "68d05c80-7514-4a5d-a0e5-6e4c0e0afa19": {
+          "type": "column",
+          "settings": {
+            "image_product": "shopify:\/\/shop_images\/Ellipse-1-2.png",
+            "title": "Monique Greer",
+            "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy<\/p>"
+          }
+        },
+        "708a7a85-7ae1-43f2-b3f1-3a0d58c6b780": {
+          "type": "column",
+          "settings": {
+            "image_product": "shopify:\/\/shop_images\/Ellipse-1-1.png",
+            "title": "Monique Greer",
+            "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy<\/p>"
+          }
+        },
+        "5349db80-a266-40c7-a907-48243cd28162": {
+          "type": "column",
+          "settings": {
+            "image_product": "shopify:\/\/shop_images\/Ellipse-1577.png",
+            "title": "Monique Greer",
+            "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "f6576c2b-1c16-41e5-b855-94c2629af1c0",
+        "68d05c80-7514-4a5d-a0e5-6e4c0e0afa19",
+        "708a7a85-7ae1-43f2-b3f1-3a0d58c6b780",
+        "5349db80-a266-40c7-a907-48243cd28162"
+      ],
       "settings": {
-        "sub_title": "Collections",
-        "title": "Collections",
-        "button_text": "Collections",
-        "button_link": ""
+        "title": "WHAT OUR CLIENT SAY’S"
       }
     }
   },
