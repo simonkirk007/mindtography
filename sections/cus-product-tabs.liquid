@@ -11,10 +11,10 @@
 
                   {%- for block in section.blocks -%}
                    {% assign someVar = someVar | plus: 1 %}
-                   
+
                     <li class="nav-item" role="presentation">
-                      <button class="nav-link" id="{{ someVar }}-tab" data-bs-toggle="tab" data-bs-target="#{{ someVar }}"
-                          type="button" role="tab" aria-controls="{{ someVar }}" aria-selected="false">{{ block.settings.title | escape }}</button>
+                      <button class="nav-link" id="tab-{{ someVar }}-tab" data-bs-toggle="tab" data-bs-target="#tab-{{ someVar }}"
+                          type="button" role="tab" aria-controls="tab-{{ someVar }}" aria-selected="false">{{ block.settings.title | escape }}</button>
                     </li>
                   {%- endfor -%}
             
@@ -25,7 +25,7 @@
 
             {%- for block in section.blocks -%}
               {% assign anotherVar = anotherVar | plus: 1 %}
-                <div class="tab-pane fade" id="{{ anotherVar }}" role="tabpanel" aria-labelledby="{{ anotherVar }}-tab">
+                <div class="tab-pane fade" id="tab-{{ anotherVar }}" role="tabpanel" aria-labelledby="tab-{{ anotherVar }}-tab">
                     <div class="row ">
                       {% assign selected_collection = block.settings.collection %}
                       {% for product in collections[selected_collection].products %}
