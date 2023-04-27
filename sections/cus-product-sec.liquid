@@ -1,4 +1,4 @@
-<section class="products-sec">
+<section class="products-sec" style="background-color: {{ section.settings.color_heading }};">
     <div class="container">
         <div class="title">
             <h2>{{ section.settings.title }}</h2>
@@ -54,11 +54,17 @@
         "id": "title",
         "default": "Collections",
         "label": "Title"
-        }, 
+        },
         {
             "type": "collection",
             "id": "collection",
             "label": "t:sections.featured-collection.settings.collection.label"
+        },
+        {
+        "type": "color",
+        "id": "color_heading",
+        "label": "Headings",
+        "default": "#fff"
         }
     ],
     "presets": [
