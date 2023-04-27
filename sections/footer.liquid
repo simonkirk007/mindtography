@@ -16,15 +16,12 @@
                     <a href="/">
                         <img src="{{ section.settings.footer_logo | img_url: 'master' }}" alt="Logo">
                     </a>
-                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                        printer took a galley of type and scrambled it to make a type specimen book. It has survived not
-                        only five centuries, but also the leap into electronic typesetting, remaining essentially
-                        unchanged.</p>
+                    {{ section.settings.content }}
                 </div>
             </div>
             <div class="col-12 col-lg-2 ">
                 <div class="footer__nav">
-                    <h6>QUick Links</h6>
+                    <h6>{{ section.settings.menu_title_1 }}</h6>
                     {%- assign footer_menu = section.settings.footer_menu -%}
                     {%- if footer_menu != blank -%}
                       {% assign linklist = footer_menu | linklist %}
@@ -41,7 +38,7 @@
             </div>
             <div class="col-12 col-lg-3 ">
                 <div class="footer__nav">
-                    <h6>Quick Links</h6>
+                    <h6>{{ section.settings.menu_title_2 }}</h6>
                     {%- assign footer_menu_2 = section.settings.footer_menu_2 -%}
                     {%- if footer_menu_2 != blank -%}
                       {% assign linklist = footer_menu_2 | linklist %}
@@ -59,9 +56,9 @@
             </div>
             <div class="col-12 col-lg-3">
                 <div class="footer__nav">
-                    <h6>newsletter</h6>
-                    <h5>We make non-annoying emails!</h5>
-                    <h5>Pop Your Email & we’ll Prove It</h5>
+                    <h6>{{ section.settings.subs_title }}</h6>
+                    <h5>{{ section.settings.subs_content }}</h5>
+                    <h5>{{ section.settings.subs_content_2 }}</h5>
                     {%- form 'customer', id: 'ContactFooter', class: 'footer-form' -%}
                       <input type="hidden" name="contact[tags]" value="newsletter">
                       <div class="newsletter-form__field-wrapper">
@@ -83,7 +80,7 @@
                             {% elsif form.posted_successfully? %}
                               aria-describedby="ContactFooter-success"
                             {% endif %}
-                            placeholder="{{ 'newsletter.label' | t }}"
+                            placeholder="Enter Your Email"
                             required
                           >
                           <button
@@ -116,15 +113,12 @@
                         </h3>
                       {%- endif -%}
                     {%- endform -%}
-                    <form action="#" class="footer-form">
-                        <input type="email" placeholder="Enter Your Email">
-                        <a class="btn-2" href="">Submit</a>
-                    </form>
+                  
                 </div>
             </div>
             <div class="col-12 ">
                 <div class="footer__copyright">
-                    <p>Copyrights © 2023 kennykenglomerate.com - All Rights Reserved.</p>
+                    {{ section.settings.copy_text }}
                     <div class="pay-img">
                         <a href="">
                             <img src="assets/images/copy-1.png" alt="">
@@ -173,9 +167,9 @@
       },
       {
         "type": "text",
-        "id": "menu_title",
+        "id": "menu_title_1",
         "default": "Collections",
-        "label": "Menu Title"
+        "label": "Menu Title 1"
       },
       {
         "type": "link_list",
@@ -184,40 +178,18 @@
         "label": "Menu 1"
       },
       {
+        "type": "text",
+        "id": "menu_title_2",
+        "default": "Collections",
+        "label": "Menu Title 2"
+      },
+      {
         "type": "link_list",
         "id": "footer_menu_2",
         "default": "main-menu",
         "label": "Menu 2"
       },
-      {
-        "type": "text",
-        "id": "quick_title",
-        "default": "Collections",
-        "label": "Quick Title"
-      },
-      {
-        "type": "text",
-        "id": "quick_address",
-        "default": "Collections",
-        "label": "Address"
-      },
-      {
-        "type": "url",
-        "id": "quick_address_link",
-        "label": "Address"
-      },
-      {
-        "type": "text",
-        "id": "quick_phone",
-        "default": "Collections",
-        "label": "Phone"
-      },
-      {
-        "type": "text",
-        "id": "quick_email",
-        "default": "Collections",
-        "label": "Email"
-      },
+
       {
         "type": "text",
         "id": "subs_title",
@@ -229,6 +201,12 @@
         "id": "subs_content",
         "default": "Collections",
         "label": "Subscriber Content"
+      },
+      {
+        "type": "text",
+        "id": "subs_content_2",
+        "default": "Collections",
+        "label": "Subscriber Content 2"
       },
       {
         "type": "richtext",
