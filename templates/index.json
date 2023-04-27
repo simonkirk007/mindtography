@@ -15,7 +15,7 @@
       "settings": {
         "title": "Featured Products",
         "collection": "tuneboom",
-        "color_heading": "#ffffff"
+        "my_select_field": "option1"
       }
     },
     "ea1469c3-8492-4179-9859-c158a6b0a43c": {
@@ -130,7 +130,7 @@
       "settings": {
         "title": "BEST SELLER",
         "collection": "frontpage",
-        "color_heading": "#dd740d"
+        "my_select_field": "option2"
       }
     },
     "4006c1a2-6eab-428f-ab97-e7c1aa586db8": {
