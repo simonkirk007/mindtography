@@ -7,14 +7,14 @@
       "settings": {
         "footer_logo": "shopify:\/\/shop_images\/logo.png",
         "content": "<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<\/p>",
-        "menu_title_1": "Collections",
+        "menu_title_1": "QUICK LINKS",
         "footer_menu": "main-menu",
-        "menu_title_2": "Collections",
-        "footer_menu_2": "main-menu",
-        "subs_title": "Collections",
-        "subs_content": "Collections",
-        "subs_content_2": "Collections",
-        "copy_text": "<p>Collections<\/p>"
+        "menu_title_2": "OTHER LINKS",
+        "footer_menu_2": "footer",
+        "subs_title": "NEWSLETTER",
+        "subs_content": "We make non-annoying emails!",
+        "subs_content_2": "Pop Your Email & we’ll Prove It",
+        "copy_text": "<p>Copyrights © 2023 kennykenglomerate.com - All Rights Reserved.<\/p>"
       }
     }
   },
