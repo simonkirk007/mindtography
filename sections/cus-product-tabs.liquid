@@ -68,21 +68,6 @@
 </section>
 
 
-<section class="products-sec {% if section.settings.my_select_field == 'option2' %} bg-sec {% endif %}">
-    <div class="container">
-        <div class="title">
-            <h2>{{ section.settings.title }}</h2>
-        </div>
-        <div class="row product-slider slick-top-btns">
-
-
-           
-            
-
-        </div>
-    </div>
-</section>
-
 {% schema %}
   {
     "name": "Cus Product tabs",
@@ -100,7 +85,7 @@
         "id": "content",
         "default": "<p>Collections</p>",
         "label": "Collection"
-      },
+      }
   ], 
   "blocks": [
     {
