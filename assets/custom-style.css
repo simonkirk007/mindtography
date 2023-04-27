@@ -92,3 +92,36 @@ footer {
   background-color: #fbebb5;
   color: #000;
 }
+
+.product__info-container .product-form__quantity .form__label {
+  display: none;
+}
+
+.product__info-container .product-form__quantity quantity-input.quantity {
+  border: unset;
+}
+
+.product__info-container .product-form__quantity quantity-input.quantity::after {
+  border-radius: 10px;
+  border-color: #dd740d;
+  box-shadow: unset;
+}
+
+.product__info-container .product-form__submit {
+  width: auto;
+}
+
+.product__info-container .product-form__quantity {
+  margin-bottom: -10px !important;
+  margin-top: 30px;
+}
+
+
+.button {
+  background-color: unset;
+  color: #000;
+  text-transform: uppercase;
+}
+.button:after {
+  border-radius: 10px;
+}
