@@ -71,13 +71,55 @@
         "my_select_field": "option1"
       }
     },
-    "7f013fdd-44a4-4167-8893-5807712eb4f2": {
-      "type": "suc-shop-category",
+    "2dcd9832-b00f-46d1-b1bd-7e376ee9db03": {
+      "type": "cus-product-tabs",
+      "blocks": {
+        "template--18839822237999__2dcd9832-b00f-46d1-b1bd-7e376ee9db03-168259243757fd3dd8-0": {
+          "type": "column",
+          "settings": {
+            "collection": "frontpage",
+            "title": "ALL"
+          }
+        },
+        "template--18839822237999__2dcd9832-b00f-46d1-b1bd-7e376ee9db03-168259243757fd3dd8-1": {
+          "type": "column",
+          "settings": {
+            "collection": "frontpage",
+            "title": "Other Category"
+          }
+        },
+        "15bc9ed2-f34e-4dde-bf8e-556971ae46bb": {
+          "type": "column",
+          "settings": {
+            "collection": "frontpage",
+            "title": "Other Category"
+          }
+        },
+        "3a5c9f9f-5dc0-4401-8474-690a7716d01d": {
+          "type": "column",
+          "settings": {
+            "collection": "frontpage",
+            "title": "Other Category"
+          }
+        },
+        "8d98cbcd-3d23-4f9d-ab8b-629e734b527e": {
+          "type": "column",
+          "settings": {
+            "collection": "frontpage",
+            "title": "Other Category"
+          }
+        }
+      },
+      "block_order": [
+        "template--18839822237999__2dcd9832-b00f-46d1-b1bd-7e376ee9db03-168259243757fd3dd8-0",
+        "template--18839822237999__2dcd9832-b00f-46d1-b1bd-7e376ee9db03-168259243757fd3dd8-1",
+        "15bc9ed2-f34e-4dde-bf8e-556971ae46bb",
+        "3a5c9f9f-5dc0-4401-8474-690a7716d01d",
+        "8d98cbcd-3d23-4f9d-ab8b-629e734b527e"
+      ],
       "settings": {
-        "sub_title": "Collections",
-        "title": "Collections",
-        "button_text": "Collections",
-        "button_link": ""
+        "title": "CATEGORIES",
+        "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard<\/p>"
       }
     },
     "dc12e3f2-f544-4b3e-a485-1899ca2b84b3": {
@@ -185,7 +227,7 @@
     "013a8add-8d35-4c6d-aea8-039d791b5621",
     "ea1469c3-8492-4179-9859-c158a6b0a43c",
     "5b13f60c-000f-448c-8a06-fa99c46dd52f",
-    "7f013fdd-44a4-4167-8893-5807712eb4f2",
+    "2dcd9832-b00f-46d1-b1bd-7e376ee9db03",
     "dc12e3f2-f544-4b3e-a485-1899ca2b84b3",
     "4b761ecb-179f-40ef-a86d-0d3a0476e0b2",
     "4006c1a2-6eab-428f-ab97-e7c1aa586db8"
