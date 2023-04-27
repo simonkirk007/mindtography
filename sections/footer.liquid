@@ -120,25 +120,12 @@
                 <div class="footer__copyright">
                     {{ section.settings.copy_text }}
                     <div class="pay-img">
+                      {%- for block in section.blocks -%}
                         <a href="">
-                            <img src="assets/images/copy-1.png" alt="">
-
+                            <img src="{{ block.settings.image_product | img_url: 'master' }}" alt="">
                         </a>
-                        <a href="">
-                            <img src="assets/images/copy-2.png" alt="">
+                        {%- endfor -%}
 
-                        </a> <a href="">
-                            <img src="assets/images/copy-3.png" alt="">
-
-                        </a> <a href="">
-                            <img src="assets/images/copy-4.png" alt="">
-
-                        </a> <a href="">
-                            <img src="assets/images/copy-5.png" alt="">
-                        </a>
-                        <a href="">
-                            <img src="assets/images/copy-6.png" alt="">
-                        </a>
                     </div>
                 </div>
             </div>
@@ -218,12 +205,35 @@
 
 
   ],
+  "blocks": [
+        {
+          "type": "column",
+          "name": "t:sections.multicolumn.blocks.column.name",
+          "settings": [
+            {
+              "type": "image_picker",
+              "id": "image_product",
+              "label": "Payment Image"
+            }
+          ]
+        }
+      ],
   "presets": [
       {
-        "name": "Custom Footer"
+        "name": "Custom Footer",
+        "blocks": [
+          {
+            "type": "column"
+          }, 
+          {
+            "type": "column"
+          },
+          {
+            "type": "column"
+          }
+        ]
       }
     ]
   }
   {% endschema %}
 
-  
