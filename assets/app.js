@@ -1,5 +1,5 @@
-jQuery('.product-tabs-btns ul .nav-item:first-child button').addClass('active');
-jQuery('.product-tabs .tab-content .tab-pane:first-child').addClass('active show');
+$('.product-tabs-btns ul .nav-item:first-child button').addClass('active');
+$('.product-tabs .tab-content .tab-pane:first-child').addClass('active show');
 
 $(".openbtn").click(function () {
   $("#myNav").addClass("active");
