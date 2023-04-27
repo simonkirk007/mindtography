@@ -39,15 +39,13 @@
                                 <ul>
                                   {%- for link in section.settings.menu.links -%}
                                     <li {% if link.url contains page.url %}class="active"{% endif %}>
-                                      <a class="" href="{{ link.url }}">{{ link.title | escape }} {% if link.links and link.links != blank %}
-                                        <i class="fal fal fa-caret-down"></i> {% endif %}</a>
+                                      <a class="" href="{{ link.url }}">{{ link.title | escape }}</a>
                                       {% if link.links and link.links != blank %}
                                        
                                         <ul class="sub-menu">
                                           {% for sublink in link.links %}
                                             <li  {% if sublink.url contains page.url %}class="active"{% endif %}>
-                                              <a href="{{ sublink.url }}">{{ sublink.title | escape }} {% if sublink.links and sublink.links != blank %}
-                                                <i class="fal fa-caret-right"></i> {% endif %}</a>
+                                              <a href="{{ sublink.url }}">{{ sublink.title | escape }}</a>
                                               {% if sublink.links and sublink.links != blank %}
                                         
                                                 <ul class="sub-menu sub-sub-menu">
