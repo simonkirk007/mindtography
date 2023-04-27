@@ -11,7 +11,7 @@
 
                   {%- for block in section.blocks -%}
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="{{ anotherVar }}-tab" data-bs-toggle="tab" data-bs-target="#{{ anotherVar }}"
+                        <button class="nav-link" id="{{ anotherVar }}-tab" data-bs-toggle="tab" data-bs-target="#{{ anotherVar }}"
                             type="button" role="tab" aria-controls="{{ anotherVar }}" aria-selected="true">{{ block.settings.title | escape }}</button>
                     </li>
                   {%- endfor -%}
