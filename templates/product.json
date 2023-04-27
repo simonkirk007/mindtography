@@ -49,7 +49,7 @@
         "197540f4-4723-4598-a928-9ce3031df580": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.reviews.rating | metafield_tag }}",
+            "text": "{{ product.metafields.reviews.rating_count.value }}",
             "text_style": "body"
           }
         }
