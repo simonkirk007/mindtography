@@ -39,7 +39,8 @@
                                 <ul>
                                   {%- for link in section.settings.menu.links -%}
                                     <li {% if link.url contains page.url %}class="active"{% endif %}>
-                                      <a class="" href="{{ link.url }}">{{ link.title | escape }}</a>
+                                      <a class="" href="{{ link.url }}">{{ link.title | escape }} {% if link.links and link.links != blank %}
+                                      <i class="far fa-chevron-down"></i> {% endif %}</a>
                                       {% if link.links and link.links != blank %}
                                        
                                         <ul class="sub-menu">
