@@ -11,10 +11,10 @@
 
                   {%- for block in section.blocks -%}
                    {% assign someVar = someVar | plus: 1 %}
-
+                   
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="{{ someVar }}-tab" data-bs-toggle="tab" data-bs-target="#{{ someVar }}"
-                            type="button" role="tab" aria-controls="{{ someVar }}" aria-selected="true">{{ block.settings.title | escape }}</button>
+                      <button class="nav-link" id="{{ someVar }}-tab" data-bs-toggle="tab" data-bs-target="#{{ someVar }}"
+                          type="button" role="tab" aria-controls="{{ someVar }}" aria-selected="false">{{ block.settings.title | escape }}</button>
                     </li>
                   {%- endfor -%}
             
