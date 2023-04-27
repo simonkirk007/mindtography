@@ -38,3 +38,19 @@ footer {
   margin: 0;
   margin-right: 20px;
 }
+.product__info-container .product__description {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.product__info-container .price .price__regular span {
+  text-decoration: auto !important;
+  font-size: 32px;
+  color: #9999;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.product__info-container .price {
+  margin-bottom: -10px !important;
+}
