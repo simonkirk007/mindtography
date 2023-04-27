@@ -32,6 +32,37 @@
       assign ratio = 1
     endif
   -%}
+
+ 
+                <div class="product-item">
+                    <div class="product-inner-item">
+                        <div class="wishlist">
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <img src="{{ card_product.featured_image.src | img_url: 'large' }}" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>{{ card_product.title }}</h3>
+                        <div class="rating">
+                            <ul>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+
+                            </ul>
+                        </div>
+                        <h6>{{ card_product.price | money }}</h6>
+                        <div class="product-btn">
+                            <a class="btn" href="{{ card_product.url }}"><i class="far fa-plus"></i></a>
+                        </div>
+                      
+                    </div>
+                </div>
+          
+
+  {% comment %}
   <div class="card-wrapper product-card-wrapper underline-links-hover">
     <div
       class="
@@ -52,7 +83,7 @@
         {%- if card_product.featured_media -%}
           <div class="card__media">
             <div class="media media--transparent media--hover-effect">
-              {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+              
               <img
                 srcset="
                   {%- if card_product.featured_media.width >= 165 -%}{{ card_product.featured_media | image_url: width: 165 }} 165w,{%- endif -%}
@@ -73,7 +104,7 @@
                 width="{{ card_product.featured_media.width }}"
                 height="{{ card_product.featured_media.height }}"
               >
-              {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
+             
 
               {%- if card_product.media[1] != null and show_secondary_image -%}
                 <img
@@ -333,6 +364,10 @@
       </div>
     </div>
   </div>
+
+  
+{% endcomment %}
+
 {%- else -%}
   <div class="product-card-wrapper card-wrapper underline-links-hover">
     <div
