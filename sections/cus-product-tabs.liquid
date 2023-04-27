@@ -10,9 +10,11 @@
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
 
                   {%- for block in section.blocks -%}
+                   {% assign someVar = someVar | plus: 1 %}
+
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="{{ anotherVar }}-tab" data-bs-toggle="tab" data-bs-target="#{{ anotherVar }}"
-                            type="button" role="tab" aria-controls="{{ anotherVar }}" aria-selected="true">{{ block.settings.title | escape }}</button>
+                        <button class="nav-link" id="{{ someVar }}-tab" data-bs-toggle="tab" data-bs-target="#{{ someVar }}"
+                            type="button" role="tab" aria-controls="{{ someVar }}" aria-selected="true">{{ block.settings.title | escape }}</button>
                     </li>
                   {%- endfor -%}
             
