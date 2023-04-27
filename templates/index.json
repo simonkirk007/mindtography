@@ -14,7 +14,8 @@
       "type": "cus-product-sec",
       "settings": {
         "title": "Featured Products",
-        "collection": "tuneboom"
+        "collection": "tuneboom",
+        "color_heading": "#ffffff"
       }
     },
     "ea1469c3-8492-4179-9859-c158a6b0a43c": {
@@ -127,8 +128,9 @@
     "4b761ecb-179f-40ef-a86d-0d3a0476e0b2": {
       "type": "cus-product-sec",
       "settings": {
-        "title": "Collections",
-        "collection": ""
+        "title": "BEST SELLER",
+        "collection": "frontpage",
+        "color_heading": "#dd740d"
       }
     },
     "4006c1a2-6eab-428f-ab97-e7c1aa586db8": {
