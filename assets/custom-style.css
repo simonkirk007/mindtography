@@ -138,3 +138,13 @@ h2.related-products__heading {
   color: #000;
   font-weight: 600;
 }
+.product-content .spr-badge span.spr-badge-caption {
+  display: none;
+}
+
+
+.product-content .spr-badge span.spr-starrating i {
+  font-size: 16px;
+  margin: 0px 8px;
+  color: #f3cd03;
+}

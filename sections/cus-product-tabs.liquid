@@ -39,16 +39,8 @@
                                   </div>
                                   <div class="product-content">
                                       <h3>{{ product.title }}</h3>
-                                      <div class="rating">
-                                          <ul>
-                                              <li><i class="fa fa-star"></i></li>
-                                              <li><i class="fa fa-star"></i></li>
-                                              <li><i class="fa fa-star"></i></li>
-                                              <li><i class="fa fa-star"></i></li>
-                                              <li><i class="fa fa-star"></i></li>
-              
-                                          </ul>
-                                      </div>
+                                      <div class="shopify-product-reviews-badge" data-id="{{ product.id }}"></div>
+                                      
                                       <h6>{{ product.price | money }}</h6>
                                       <div class="product-btn">
                                           <a class="btn" href="{{ product.url }}"><i class="far fa-plus"></i></a>
