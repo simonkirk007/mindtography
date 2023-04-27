@@ -103,11 +103,19 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "1449691e-a1ec-4ae1-8142-7ba130ce5788": {
+      "type": "cus-single-product-tabs",
+      "settings": {
+        "test_description": "",
+        "test_additional": ""
+      }
     }
   },
   "order": [
     "main",
     "1682597882733337ea",
-    "related-products"
+    "related-products",
+    "1449691e-a1ec-4ae1-8142-7ba130ce5788"
   ]
 }
