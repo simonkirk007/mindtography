@@ -3,22 +3,15 @@
         <div class="row g-0 align-items-stretch">
             <div class="col-md-6">
                 <div class="about-img">
-                    <img src="assets/images/about-img.jpg" alt="">
+                    <img src="{{ section.settings.image | img_url: 'master' }}" alt="">
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="about-content bg-2 ">
                     <div>
-                        <h3>ABOUT US</h3>
-                        <p>Since the beginning of time, all cultures have found the importance of myths threading the
-                            reality of human conditioning with imagination. Art has allowed our minds to capture
-                            glimpses of
-                            the past, present, and yet in some cases predicting our future. Is it a gift or a curse? The
-                            answer will define you. Artists are a rare breed of individuals.We are gifted with the
-                            ability
-                            to spark thoughts that speak to the soul, with the heart to dare to be different running in
-                            our
-                            veins.  </p>
+                        <h3>{{ section.settings.title }}</h3>
+                        {{ section.settings.content }}
+                        
                     </div>
 
                 </div>
@@ -37,7 +30,7 @@
       "settings": [
         {
           "type": "image_picker",
-          "id": "banner_img",
+          "id": "image",
           "label": "Image"
         },
         {
