@@ -23,13 +23,15 @@
                 <div class="tab-pane fade show active" id="DEscription" role="tabpanel"
                     aria-labelledby="DEscription-tab">
                     <div class="product-tabs-con">
-                    {{ section.settings.custom_disclaimer }}
+          
+                    {{ product.metafields.reviews.rating.value }}
                     {{ section.settings.test_description }}
 
                     </div>
                 </div>
                 <div class="tab-pane fade" id="Specification" role="tabpanel" aria-labelledby="Specification-tab">
                     <div class="product-tabs-con">
+                      {{ product.metafields.reviews.rating.value }}
                     {{ section.settings.test_additional }}
                     </div>
                 </div>
