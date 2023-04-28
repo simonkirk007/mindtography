@@ -3,15 +3,15 @@
         <div class="row">
             <div class="col-12 col-lg-5">
                 <div class="contact__img">
-                    <img src="assets/images/contact-img.png" alt="image" class="imgFluid" loading="lazy">
+                    <img src="{{ section.settings.image | img_url: 'master' }}" alt="image" class="imgFluid" loading="lazy">
                 </div>
             </div>
             <div class="col-12 col-lg-7">
                 <div class="contactFormWrapper">
                     <div class="title">
 
-                        <h2 class="text-capitalize">Contact Information</h2>
-                        <h3 class="subHeading">Say something to start a live chat!</h3>
+                        <h2 class="text-capitalize">{{ section.settings.title }}</h2>
+                        <h3 class="subHeading">{{ section.settings.sub_title }}</h3>
                     </div>
                     <form action="#" class="contact-form">
                         <div class="row no-gutters">
@@ -50,21 +50,21 @@
                     </form>
                     <ul class="contact-details">
                         <li class="contact-details__single">
-                            <a href="tel:012345789">
+                            <a href="tel:{{ section.settings.phone_number }}">
                                 <i class="bx bx-phone-call bx-tada"></i>
-                                +012 345 789
+                                {{ section.settings.phone_number }}
                             </a>
                         </li>
                         <li class="contact-details__single">
-                            <a href="mailto:demo@mail.com">
+                            <a href="mailto:{{ section.settings.email_address }}">
                                 <i class="bx bx-envelope"></i>
-                                demo@mail.com
+                                {{ section.settings.email_address }}
                             </a>
                         </li>
                         <li class="contact-details__single">
                             <address>
                                 <i class="bx bx-map"></i>
-                                132 Demo Address
+                                {{ section.settings.address }}
                             </address>
                         </li>
                     </ul>
