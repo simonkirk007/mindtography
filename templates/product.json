@@ -74,8 +74,8 @@
     "1449691e-a1ec-4ae1-8142-7ba130ce5788": {
       "type": "cus-single-product-tabs",
       "settings": {
-        "test_description": "{{ product.vendor }}",
-        "test_additional": "{{ product.vendor }}"
+        "test_description": "",
+        "test_additional": ""
       }
     },
     "related-products": {
