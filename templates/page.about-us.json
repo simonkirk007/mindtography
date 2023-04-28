@@ -3,10 +3,20 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "page_title": ""
+      }
+    },
+    "5a44bfb3-ed95-4fd2-913e-852cada2dbdb": {
+      "type": "about-page-sec",
+      "settings": {
+        "title": "Collections",
+        "content": "<p>Collections<\/p>",
+        "my_select_field": "option1"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "5a44bfb3-ed95-4fd2-913e-852cada2dbdb"
   ]
 }
