@@ -163,3 +163,7 @@ h2.related-products__heading {
   outline-offset: 2px;
   border-color: #000 !important;
 }
+
+.product-tabs-con {
+  font-size: 16px;
+}
