@@ -1,12 +1,49 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
-{% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
+    {
+      "name": "Cus About Page",
+      "tag": "section",
+      "class": "announcement-bar-section",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "default": "Collections",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "sub_title",
+          "default": "Collections",
+          "label": "Sub Title"
+        },
+        {
+          "type": "text",
+          "id": "phone_number",
+          "default": "+012 345 789",
+          "label": "Phone Number"
+        },
+        {
+          "type": "text",
+          "id": "email_address",
+          "default": "demo@mail.com",
+          "label": "Email Address"
+        },
+        {
+          "type": "text",
+          "id": "address",
+          "default": "132 Demo Address",
+          "label": "Address"
+        }
+    ],
+    "presets": [
+        {
+          "name": "Cus About Page"
+        }
+      ]
+    }
+    {% endschema %}
