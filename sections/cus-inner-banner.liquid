@@ -1,12 +1,32 @@
+<div class="braedcumb" style="background-image: url({% if section.settings.banner_img !=blank %}{{ section.settings.banner_img | img_url: 'master' }} {% else %}{{ 'about-back.png' | asset_url }}{% endif %});">
+    <div class="container position-relative">
+        <div class="row align-items-center">
+
+            <div class="banner-content">
+                <h2>{{ section.settings.title }}</h2>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Cus Inner Banner",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "banner_img",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "default": "Title",
+      "label": "Title"
+    }
+  ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
