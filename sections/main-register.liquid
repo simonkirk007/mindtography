@@ -24,7 +24,7 @@
     </symbol>
   </svg>
   <h1>
-   SIGN UP
+    {{ 'customer.register.title' | t }}
   </h1>
   {%- form 'create_customer', novalidate: 'novalidate' -%}
     {%- if form.errors -%}
