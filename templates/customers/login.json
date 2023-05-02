@@ -1,1 +1,21 @@
-{"sections":{"main":{"type":"main-login","settings":{"padding_top":36,"padding_bottom":36}}},"order":["main"]}
+{
+  "sections": {
+    "defc10a6-ff48-4c8e-b602-a24eeafadcb9": {
+      "type": "cus-inner-banner",
+      "settings": {
+        "title": "Login"
+      }
+    },
+    "main": {
+      "type": "main-login",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "defc10a6-ff48-4c8e-b602-a24eeafadcb9",
+    "main"
+  ]
+}
