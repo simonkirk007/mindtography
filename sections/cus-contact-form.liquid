@@ -41,29 +41,28 @@
                           <div class="contact-form__fields">
                             <input
                               class=""
-                              autocomplete="given-name"
+                              autocomplete="name"
                               type="text"
-                              id="ContactForm-first-name"
-                              name="contact[{{ 'templates.contact.form.first_name' | t }}]"
-                              value="{% if form.first_name %}{{ form.first_name }}{% elsif customer %}{{ customer.first_name }}{% endif %}"
-                              placeholder="{{ 'templates.contact.form.first_name' | t }}"
+                              id="ContactForm-name"
+                              name="contact[{{ 'templates.contact.form.name' | t }}]"
+                              value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
+                              placeholder="First Name"
                             >
                           </div>
                         </div>
-                        
-                        <div class="col-12 col-lg-6">
-                          <div class="contact-form__fields">
-                            <input
-                              class=""
-                              autocomplete="family-name"
-                              type="text"
-                              id="ContactForm-last-name"
-                              name="contact[{{ 'templates.contact.form.last_name' | t }}]"
-                              value="{% if form.last_name %}{{ form.last_name }}{% elsif customer %}{{ customer.last_name }}{% endif %}"
-                              placeholder="{{ 'templates.contact.form.last_name' | t }}"
-                            >
-                          </div>
-                        </div>
+                    <div class="col-12 col-lg-6">
+                      <div class="contact-form__fields">
+                        <input
+                          class=""
+                          autocomplete="family-name"
+                          type="text"
+                          id="ContactForm-last-name"
+                          name="contact[{{ 'templates.contact.form.last_name' | t }}]"
+                          value="{% if form.last_name %}{{ form.last_name }}{% elsif customer %}{{ customer.last_name }}{% endif %}"
+                          placeholder="Last Name"
+                        >
+                      </div>
+                    </div>
 
                         <div class="col-12 col-lg-6 field--with-error">
                           <div class="contact-form__fields">
