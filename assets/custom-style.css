@@ -181,7 +181,8 @@ h2.related-products__heading {
     font-size: 16px;
 }
 
-.customer.login {
+.customer.login,
+.customer.register {
     padding: 60px 50px !important;
     border-radius: 10px;
     box-shadow: rgb(0 0 0 / 19%) 12px 13px 20px, rgb(0 0 0 / 23%) 0px 6px 6px;
