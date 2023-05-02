@@ -94,9 +94,7 @@
         {% endif %}
         placeholder="{{ 'customer.register.email' | t }}"
       >
-      <label for="RegisterForm-email">
-        {{ 'customer.register.email' | t }}
-      </label>
+
     </div>
     {%- if form.errors contains 'email' -%}
       <span id="RegisterForm-email-error" class="form__message">
