@@ -1,1 +1,21 @@
-{"sections":{"main":{"type":"main-register","settings":{"padding_top":36,"padding_bottom":36}}},"order":["main"]}
+{
+  "sections": {
+    "563adb05-26cd-40a9-a106-cbe5f4eaffd1": {
+      "type": "cus-inner-banner",
+      "settings": {
+        "title": "Register"
+      }
+    },
+    "main": {
+      "type": "main-register",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "563adb05-26cd-40a9-a106-cbe5f4eaffd1",
+    "main"
+  ]
+}

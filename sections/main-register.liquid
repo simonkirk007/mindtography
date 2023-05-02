@@ -60,7 +60,9 @@
         autocomplete="given-name"
         placeholder="{{ 'customer.register.first_name' | t }}"
       >
-     
+      <label for="RegisterForm-FirstName">
+        {{ 'customer.register.first_name' | t }}
+      </label>
     </div>
     <div class="field">
       <input
@@ -73,7 +75,9 @@
         autocomplete="family-name"
         placeholder="{{ 'customer.register.last_name' | t }}"
       >
-   
+      <label for="RegisterForm-LastName">
+        {{ 'customer.register.last_name' | t }}
+      </label>
     </div>
     <div class="field">
       <input
@@ -118,7 +122,9 @@
         {% endif %}
         placeholder="{{ 'customer.register.password' | t }}"
       >
-   
+      <label for="RegisterForm-password">
+        {{ 'customer.register.password' | t }}
+      </label>
     </div>
     {%- if form.errors contains 'password' -%}
       <span id="RegisterForm-password-error" class="form__message">
