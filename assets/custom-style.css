@@ -221,8 +221,7 @@ h2.related-products__heading {
     display: none;
 }
 
-h1#login,
-.customer.register h1 {
+h1#login {
     font-size: 50px;
     color: #000;
     font-weight: 600;
