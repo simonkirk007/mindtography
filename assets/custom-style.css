@@ -186,3 +186,42 @@ h2.related-products__heading {
     border-radius: 10px;
     box-shadow: rgb(0 0 0 / 19%) 12px 13px 20px, rgb(0 0 0 / 23%) 0px 6px 6px;
 }
+
+.customer .field input, .customer .field input:focus {
+    padding: 5px 15px !important;
+    background: #f8f8f8 !important;
+    border: 2px solid var(--c1);
+    border-radius: 40px;
+    width: 100%;
+    height: 52px;
+}
+
+.customer .field::after {
+    display: none;
+}
+
+.customer .field input::placeholder {
+    opacity: 1;
+}
+
+.customer button {
+    background: var(--c1);
+    color: #fff;
+    padding: 9px 39px;
+    border-radius: 30px;
+    border: 2px solid var(--c1);
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.customer button::after {
+    display: none;
+}
+
+h1#login {
+    font-size: 50px;
+    color: #000;
+    font-weight: 600;
+}
