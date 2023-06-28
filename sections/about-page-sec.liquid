@@ -18,6 +18,21 @@
 
             </div>
         </div>
+      <div class="row g-0 align-items-stretch">
+        <div class="about-content bg-2 ">
+                    <div>
+                        <h3>{{ section.settings.title }}</h3>
+                        {{ section.settings.content }}
+                        
+                    </div>
+
+                </div>
+            <div class="col-md-6">
+                <div class="about-img">
+                    <img src="{{ section.settings.image | img_url: 'master' }}" alt="">
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
