@@ -1,5 +1,11 @@
 {
   "sections": {
+    "393cd6f8-4ae3-4bef-81ca-db4d7f7662d7": {
+      "type": "cus-inner-banner",
+      "settings": {
+        "title": "Blog"
+      }
+    },
     "main": {
       "type": "main-blog",
       "settings": {
@@ -14,6 +20,7 @@
     }
   },
   "order": [
+    "393cd6f8-4ae3-4bef-81ca-db4d7f7662d7",
     "main"
   ]
 }
