@@ -46,6 +46,7 @@
       "settings": {
         "footer_logo": "shopify:\/\/shop_images\/Logo_image.png",
         "content": "<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<\/p>",
+        "show_social": true,
         "menu_title_1": "QUICK LINKS",
         "footer_menu": "footer",
         "menu_title_2": "OTHER LINKS",
