@@ -1988,3 +1988,7 @@ span.footsocial-links.text-dark a {
 .blog-articles {
   grid-template-columns: 1fr 1fr 1fr !important;
 }
+.card__information {
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+}
