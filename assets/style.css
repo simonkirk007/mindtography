@@ -1955,3 +1955,25 @@ span.footsocial-links.text-dark a {
   float: left;
   padding: 0 30px;
 }
+
+.featured-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.article-template__content.page-width.page-width--narrow.rte {
+  flex: 0 0 100%;
+}
+.article-template__social-sharing.page-width.page-width--narrow {
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: center;
+}
+.share-button {
+  width: max-content;
+  margin: 0 auto;
+}
+.article-template__back:last-child {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
