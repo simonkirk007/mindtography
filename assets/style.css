@@ -1977,3 +1977,8 @@ span.footsocial-links.text-dark a {
   flex: 0 0 100%;
   max-width: 100%;
 }
+.article-template__content.page-width.page-width--narrow.rte {
+  width: 100% !important;
+  margin: 0;
+  max-width: 100%;
+}
