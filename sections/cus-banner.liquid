@@ -5,7 +5,7 @@
                 <div class="banner-content">
                     <h5>Welcome To our website</h5>
                     <h2><span>CONTEMPORARY ART</span> Transform Your Living Space</h2>
-                    <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+                    <p>{{ section.settings.content }}
                     </p>
                     <div class="banner-btn">
                         <a class="btn" href="">get started</a>
@@ -40,6 +40,12 @@
           "id": "title",
           "default": "Collections",
           "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "content",
+          "default": "Collections",
+          "label": "cpntent"
         },
         {
           "type": "text",
