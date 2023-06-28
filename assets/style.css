@@ -1985,3 +1985,6 @@ span.footsocial-links.text-dark a {
 .title--primary {
   display: none !important;
 }
+.blog-articles {
+  grid-template-columns: 1fr 1fr 1fr;
+}
