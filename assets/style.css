@@ -1982,3 +1982,6 @@ span.footsocial-links.text-dark a {
   margin: 0;
   max-width: 100%;
 }
+.title--primary {
+  display: none;
+}
