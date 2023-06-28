@@ -39,9 +39,10 @@
           </div>
         {%- endif -%}
       
-    <div class="article-content">
+   
   
       {%- when 'title' -%}
+       <div class="article-content">
         <header class="page-width page-width--narrow" {{ block.shopify_attributes }}>
           <h1 class="article-template__title" itemprop="headline">{{ article.title | escape }}</h1>
           {%- if block.settings.blog_show_date -%}
@@ -55,7 +56,8 @@
             </span>
           {%- endif -%}
         </header>
-
+      
+  </div>
       {%- when 'content' -%}
         <div
           class="article-template__content page-width page-width--narrow rte"
@@ -72,7 +74,7 @@
         </div>
     {%- endcase -%}
     
-     </div>
+   
   
   {%- endfor -%}
   
