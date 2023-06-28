@@ -1941,3 +1941,17 @@ span.footsocial-links.text-dark a {
     justify-content: flex-end;
     margin-top: 15px;
 }
+
+
+.article-template__hero-container {
+  width: 50%;
+  float: left;
+}
+.article-template {
+  padding: 0 90px;
+}
+.article-content {
+  width: 50%;
+  float: left;
+  padding: 0 30px;
+}
