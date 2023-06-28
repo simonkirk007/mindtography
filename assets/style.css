@@ -1935,3 +1935,9 @@ span.footsocial-links.text-dark a {
 .checkout-check input {
   margin: 14px 0;
 }
+.list-social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
