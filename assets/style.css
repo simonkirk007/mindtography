@@ -1986,5 +1986,5 @@ span.footsocial-links.text-dark a {
   display: none !important;
 }
 .blog-articles {
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr !important;
 }
