@@ -20,6 +20,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        ".header-menu ul li a {font-family: var(--f1); font-weight: 500; font-size: 15px;}"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
