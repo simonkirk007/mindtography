@@ -15,7 +15,7 @@
       "type": "cus-product-sec",
       "settings": {
         "title": "Featured Products",
-        "collection": "tuneboom",
+        "collection": "featured-products",
         "my_select_field": "option1"
       }
     },
