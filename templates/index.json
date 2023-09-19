@@ -21,6 +21,7 @@
     },
     "ea1469c3-8492-4179-9859-c158a6b0a43c": {
       "type": "cus-about-sec",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/about-img.jpg",
         "title": "ABOUT US",
