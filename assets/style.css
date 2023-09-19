@@ -296,7 +296,7 @@ section.products-sec {
 
 .product-item {
   background: #ffffff;
-  border: 0.5px solid #dd740d;
+  /* border: 0.5px solid #dd740d; */
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 12.7123px;
   padding: 20px 20px;
