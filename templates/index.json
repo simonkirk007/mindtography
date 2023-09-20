@@ -34,7 +34,7 @@
         "39fbf45f-a172-46f8-bbd1-8567e62c32a2": {
           "type": "column",
           "settings": {
-            "image_product": "shopify:\/\/shop_images\/contebt-slider-img.png",
+            "image_product": "shopify:\/\/shop_images\/5.png",
             "title": "PLACE YOUR TITLE HERE",
             "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has <br\/><\/p>",
             "button_text": "learn more",
@@ -44,7 +44,7 @@
         "101f431f-16d7-4a0d-a382-8bd55f25fc74": {
           "type": "column",
           "settings": {
-            "image_product": "shopify:\/\/shop_images\/contebt-slider-img.png",
+            "image_product": "shopify:\/\/shop_images\/6.png",
             "title": "PLACE YOUR TITLE HERE",
             "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has <br\/><\/p>",
             "button_text": "learn more",
@@ -53,6 +53,7 @@
         },
         "05f632ab-104d-4726-89d7-49c171342605": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image_product": "shopify:\/\/shop_images\/contebt-slider-img.png",
             "title": "PLACE YOUR TITLE HERE",
