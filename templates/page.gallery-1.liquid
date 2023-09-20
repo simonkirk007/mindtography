@@ -1,0 +1,12 @@
+<div class="gallery-page">
+  <h1>Welcome to Our Gallery</h1>
+  
+  <div class="gallery">
+    {% for image in collection.images %}
+      <div class="gallery-item">
+        <img src="{{ image.src | img_url: 'large' }}" alt="{{ image.alt | escape }}">
+        <p>{{ image.caption | escape }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
