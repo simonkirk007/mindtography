@@ -8,6 +8,17 @@
     },
     "867a7435-b821-41e1-a977-17a3759bbb2f": {
       "type": "cus-gallery-sec",
+      "blocks": {
+        "538b6c85-59e4-4415-ad29-985bd1f477e6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5.png"
+          }
+        }
+      },
+      "block_order": [
+        "538b6c85-59e4-4415-ad29-985bd1f477e6"
+      ],
       "settings": {
         "title": "Welcome to Our Gallery"
       }
