@@ -4,7 +4,7 @@
   <div class="gallery">
     {% for image in collection.images %}
       <div class="gallery-item">
-        <img src="{{ image.src | img_url: 'large' }}" alt="{{ image.alt | escape }}">
+        <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ image.alt | escape }}">
         <p>{{ image.caption | escape }}</p>
       </div>
     {% endfor %}
@@ -13,7 +13,7 @@
 
 {% schema %}
     {
-      "name": "Cus Category",
+      "name": "Cus Gallery",
       "tag": "section",
       "class": "announcement-bar-section",
       "settings": [
@@ -56,7 +56,7 @@
 
     "presets": [
         {
-          "name": "Cus Category"
+          "name": "Cus Gallery"
         }
       ]
     }
