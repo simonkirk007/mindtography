@@ -62,9 +62,9 @@ $(".banner-slider-main").slick({
   dots: false,
   infinite: true,
   autoplay: true,
-  arrows: true,
+  arrows: false,
   speed: 300,
-  slidesToShow: 4,
+  slidesToShow: 1,
   slidesToScroll: 1,
   prevArrow:
     '<div class="slick-prev"><i class="fal fa-chevron-left"></i></div>',
