@@ -226,6 +226,16 @@
       "settings": {
         "title": "WHAT OUR CLIENT SAY’S"
       }
+    },
+    "4a4dcf4c-1878-4903-8c49-c9c3b364bced": {
+      "type": "cus-banner",
+      "settings": {
+        "sub_title": "Collections",
+        "title": "Collections",
+        "content": "Collections",
+        "button_text": "Collections",
+        "button_link": ""
+      }
     }
   },
   "order": [
@@ -236,6 +246,7 @@
     "2dcd9832-b00f-46d1-b1bd-7e376ee9db03",
     "dc12e3f2-f544-4b3e-a485-1899ca2b84b3",
     "4b761ecb-179f-40ef-a86d-0d3a0476e0b2",
-    "4006c1a2-6eab-428f-ab97-e7c1aa586db8"
+    "4006c1a2-6eab-428f-ab97-e7c1aa586db8",
+    "4a4dcf4c-1878-4903-8c49-c9c3b364bced"
   ]
 }
