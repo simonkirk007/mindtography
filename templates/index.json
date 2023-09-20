@@ -120,6 +120,7 @@
         "3a5c9f9f-5dc0-4401-8474-690a7716d01d",
         "8d98cbcd-3d23-4f9d-ab8b-629e734b527e"
       ],
+      "disabled": true,
       "settings": {
         "title": "CATEGORIES",
         "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard<\/p>"
@@ -164,6 +165,7 @@
         "template--18839822237999__dc12e3f2-f544-4b3e-a485-1899ca2b84b3-168251992300219dec-1",
         "template--18839822237999__dc12e3f2-f544-4b3e-a485-1899ca2b84b3-168251992300219dec-2"
       ],
+      "disabled": true,
       "settings": {
         "button_text": "view all",
         "button_link": "#",
@@ -172,6 +174,7 @@
     },
     "4b761ecb-179f-40ef-a86d-0d3a0476e0b2": {
       "type": "cus-product-sec",
+      "disabled": true,
       "settings": {
         "title": "BEST SELLER",
         "collection": "frontpage",
@@ -184,7 +187,7 @@
         "f6576c2b-1c16-41e5-b855-94c2629af1c0": {
           "type": "column",
           "settings": {
-            "image_product": "shopify:\/\/shop_images\/Logo_image.png",
+            "image_product": "shopify:\/\/shop_images\/icon.png",
             "title": "Collector",
             "content": "<p>“ Kenglomerate is a extremely talented artist with thought provoking concepts that create conversation in any room. I have been debating on where to hang my next art piece in my recording <br\/>studio.”<\/p>"
           }
@@ -192,7 +195,7 @@
         "68d05c80-7514-4a5d-a0e5-6e4c0e0afa19": {
           "type": "column",
           "settings": {
-            "image_product": "shopify:\/\/shop_images\/Logo_image.png",
+            "image_product": "shopify:\/\/shop_images\/icon.png",
             "title": "Hip Hop Art Collector",
             "content": "<p>“ I’m in love with the Nipsey Hustle canvas. Your super talented beyond <br\/>words. The canvas looks amazing hanging on my loft walls. Thank you ”<\/p>"
           }
@@ -200,7 +203,7 @@
         "708a7a85-7ae1-43f2-b3f1-3a0d58c6b780": {
           "type": "column",
           "settings": {
-            "image_product": "shopify:\/\/shop_images\/Logo_image.png",
+            "image_product": "shopify:\/\/shop_images\/icon.png",
             "title": "Collector",
             "content": "<p> “ Kenny Kenglomerate is phenomenal with his artistry. Most importantly, very professional with his product. I am on my third piece of artwork, and can’t wait to see what he comes up with next. “ <\/p>"
           }
@@ -208,7 +211,7 @@
         "5349db80-a266-40c7-a907-48243cd28162": {
           "type": "column",
           "settings": {
-            "image_product": "shopify:\/\/shop_images\/Logo_image.png",
+            "image_product": "shopify:\/\/shop_images\/icon.png",
             "title": "Collector",
             "content": "<p>“The Biggie canvas work is Powerful. I’m from Brooklyn and this artwork<br\/> speaks to me on many levels. I love your creativity. It’s one of my <br\/>favorite pieces that I own.” <\/p>"
           }
