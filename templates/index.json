@@ -2,13 +2,38 @@
   "sections": {
     "67f45704-b28f-46d7-9c95-f8d80b7e7b78": {
       "type": "cus-banner",
+      "blocks": {
+        "1c1f05e3-1c9d-4398-b1e5-26554b839b71": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b1.jpg",
+            "sub_title": "Welcome To our website",
+            "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has.<\/p>"
+          }
+        },
+        "baf7e322-7377-436f-85ce-0534726dabff": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b1.jpg",
+            "sub_title": "Welcome To our website",
+            "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has.<\/p>"
+          }
+        },
+        "7adab171-a007-4e29-ada1-21a916508de3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b1.jpg",
+            "sub_title": "Welcome To our website",
+            "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1c1f05e3-1c9d-4398-b1e5-26554b839b71",
+        "baf7e322-7377-436f-85ce-0534726dabff",
+        "7adab171-a007-4e29-ada1-21a916508de3"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/back-image.png",
-        "sub_title": "Welcome To our website",
-        "title": "<span>CONTEMPORARY ART<\/span> Transform Your Living Space",
-        "content": "Our Canvases Prints are stretched on wooden frames making it come easy to hang on delivery. Simply unbox, hang on your wall, and reorganize your space how you see fit.  Paper Prints are delivered securely in a tube ready to be placed in a frame of your liking",
-        "button_text": "Our Canvases Prints are stretched on wooden frames making it come easy to hang on delivery. Simply unbox, hang on your wall, and reorganize your space how you see fit.  Paper Prints are delivered securely in a tube ready to be placed in a frame of your liking",
-        "button_link": ""
       }
     },
     "013a8add-8d35-4c6d-aea8-039d791b5621": {
@@ -230,11 +255,6 @@
     "4a4dcf4c-1878-4903-8c49-c9c3b364bced": {
       "type": "cus-banner",
       "settings": {
-        "sub_title": "Collections",
-        "title": "Collections",
-        "content": "Collections",
-        "button_text": "Collections",
-        "button_link": ""
       }
     }
   },
