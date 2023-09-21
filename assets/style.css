@@ -1992,3 +1992,9 @@ span.footsocial-links.text-dark a {
   padding-left: 5% !important;
   padding-right: 5% !important;
 }
+
+.braedcumb {
+  background-image: url(//1a1d93.myshopify.com/cdn/shop/files/0_2eb2ff30-cd8f-42e3-96c3-1b492c80f396.jpg?v=1695314708 );
+  background-size: cover;
+  background-position: revert-layer;
+}
