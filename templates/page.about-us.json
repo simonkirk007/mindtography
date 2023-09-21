@@ -14,7 +14,7 @@
           "settings": {
             "heading": "What is Modern Artz?",
             "icon": "check_mark",
-            "row_content": "<p> Modern Artz<br\/>is an online platform showcasing custom artwork created by Kenny Konglomerate.<br\/>We specialize in curating custom artwork for customers all around the globe in<br\/>attempts to bridge the gap between hip hop and modern art. <\/p>",
+            "row_content": "<p> Modern Artz is an online platform showcasing custom artwork created by Kenny Konglomerate. We specialize in curating custom artwork for customers all around the globe in attempts to bridge the gap between hip hop and modern art.<\/p>",
             "page": ""
           }
         },
@@ -30,18 +30,27 @@
         "template--18868982284591__346357d0-2bdc-4de6-aa8f-cd85a4f289d2-collapsible_row-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Do you offer custom art commissions?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Yes, we do offer custom art commissions. Please visit our Custom page to learn more about the process and how to request a custom piece of artwork.<\/p>",
             "page": ""
           }
         },
         "template--18868982284591__346357d0-2bdc-4de6-aa8f-cd85a4f289d2-collapsible_row-4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "What payment methods do you accept?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>We currently accept payments via credit\/debit cards (Visa, MasterCard, American Express), PayPal, Apple Pay and other payment methods. All payments are processed securely through our website.<\/p>",
+            "page": ""
+          }
+        },
+        "dac3eb69-e770-43fb-973d-79059c2b65e5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is your shipping policy?",
+            "icon": "check_mark",
+            "row_content": "<p>Our shipping policies may vary depending on if the product purchased is custom or from our art gallery. Shipping time is estimated but not guaranteed. At this time custom artwork and items from our art gallery are expected to arrive within 7-15 business days. Holidays and surplus of orders may have an effect on shipping time. <\/p>",
             "page": ""
           }
         }
@@ -50,7 +59,8 @@
         "template--18868982284591__346357d0-2bdc-4de6-aa8f-cd85a4f289d2-collapsible_row-1",
         "template--18868982284591__346357d0-2bdc-4de6-aa8f-cd85a4f289d2-collapsible_row-2",
         "template--18868982284591__346357d0-2bdc-4de6-aa8f-cd85a4f289d2-collapsible_row-3",
-        "template--18868982284591__346357d0-2bdc-4de6-aa8f-cd85a4f289d2-collapsible_row-4"
+        "template--18868982284591__346357d0-2bdc-4de6-aa8f-cd85a4f289d2-collapsible_row-4",
+        "dac3eb69-e770-43fb-973d-79059c2b65e5"
       ],
       "settings": {
         "caption": "",
