@@ -2,6 +2,37 @@
   "sections": {
     "67f45704-b28f-46d7-9c95-f8d80b7e7b78": {
       "type": "cus-banner",
+      "blocks": {
+        "cb206347-5883-456e-a8bb-0b48374655e0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b1.jpg",
+            "sub_title": "Welcome To our website",
+            "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has.<\/p>"
+          }
+        },
+        "bcb039d1-094c-4206-93fb-611829338de2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b1.jpg",
+            "sub_title": "Welcome To our website",
+            "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has.<\/p>"
+          }
+        },
+        "f74534b7-9a5b-4781-8aac-e6c71929bf5c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b1.jpg",
+            "sub_title": "Welcome To our website",
+            "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "cb206347-5883-456e-a8bb-0b48374655e0",
+        "bcb039d1-094c-4206-93fb-611829338de2",
+        "f74534b7-9a5b-4781-8aac-e6c71929bf5c"
+      ],
       "settings": {
       }
     },
