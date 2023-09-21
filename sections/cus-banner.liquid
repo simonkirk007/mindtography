@@ -7,7 +7,7 @@
           <div class= "main-slider-con">
             <div class="main-banner-con">
                 <div class="banner-content">
-                    <h5>Welcome To our website</h5>
+                    <h5>{{ block.settings.sub_title }}</h5>
                     <h2><span>CONTEMPORARY ART</span> Transform Your Living Space</h2>
                     <p>{{ section.settings.content }}
                     </p>
@@ -25,51 +25,62 @@
   {%- endfor -%}
 </div>
 
+
+
+
 {% schema %}
-    {
-      "name": "Cus Banner",
-      "tag": "section",
-      "class": "announcement-bar-section",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "t:sections.multicolumn.blocks.column.settings.image.label"
-        },
-        {
-          "type": "text",
-          "id": "sub_title",
-          "default": "Collections",
-          "label": "Sub Title"
-        },
-        {
-          "type": "text",
-          "id": "title",
-          "default": "Collections",
-          "label": "Title"
-        },
-        {
-          "type": "text",
-          "id": "content",
-          "default": "Collections",
-          "label": "content"
-        },
-        {
-          "type": "text",
-          "id": "button_text",
-          "default": "Collections",
-          "label": "Button Text"
-        },
-        {
+  {
+    "name": "Cus Main Slider",
+    "tag": "section",
+    "class": "announcement-bar-section",
+    "blocks": [
+      {
+        "type": "column",
+        "name": "t:sections.multicolumn.blocks.column.name",
+        "settings": [
+          {
+            "type": "text",
+            "id": "sub_title",
+            "default": "Welcome To our website",
+            "label": "Sub Heading"
+          },
+          {
+            "type": "text",
+            "id": "button_text",
+            "default": "SHOP NOW",
+            "label": "Button Title"
+          }, 
+          {
             "type": "url",
             "id": "button_link",
             "label": "Button Link"
+          },
+          {
+            "type": "richtext",
+            "id": "content",
+            "default": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has.</p>",
+            "label": "Content"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "t:sections.multicolumn.blocks.column.settings.image.label"
           }
+        ]
+      }
     ],
     "presets": [
-        {
-          "name": "Cus Banner"
-        }
-      ]
-    }
-    {% endschema %}
+      {
+        "name": "Cus Main Slider",
+        "blocks": [
+          {
+            "type": "column"
+          }, {
+            "type": "column"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+
