@@ -31,11 +31,20 @@
         "collection": "featured-products",
         "my_select_field": "option1"
       }
+    },
+    "fc1006bc-341b-43d1-bf25-dbfaaa2e82b5": {
+      "type": "cus-product-sec",
+      "settings": {
+        "title": "",
+        "collection": "merchandise",
+        "my_select_field": "option1"
+      }
     }
   },
   "order": [
     "banner",
     "product-grid",
-    "b6c6bc1b-6129-44b9-8350-87bcb048cd6f"
+    "b6c6bc1b-6129-44b9-8350-87bcb048cd6f",
+    "fc1006bc-341b-43d1-bf25-dbfaaa2e82b5"
   ]
 }
