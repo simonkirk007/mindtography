@@ -53,6 +53,51 @@
             "row_content": "<p>Our shipping policies may vary depending on if the product purchased is custom or from our art gallery. Shipping time is estimated but not guaranteed. At this time custom artwork and items from our art gallery are expected to arrive within 7-15 business days. Holidays and surplus of orders may have an effect on shipping time. <\/p>",
             "page": ""
           }
+        },
+        "346d37a4-50f9-4038-92fb-f9a56bc5100d": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I return or exchange artwork if I'm not satisfied?",
+            "icon": "check_mark",
+            "row_content": "<p>We want you to be completely satisfied with your purchase however at this time all sales are final for custom artwork and items from the art gallery. <\/p>",
+            "page": ""
+          }
+        },
+        "b9632400-fd81-4f11-867a-ac679013c7fb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I contact customer support?",
+            "icon": "check_mark",
+            "row_content": "<p>If you have any questions, concerns, or need assistance, please visit our abotu us  page for various ways to get in touch with our customer support team. We are here to help!<\/p>",
+            "page": ""
+          }
+        },
+        "b07e0599-318e-4927-85af-38e453b8e996": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer international shipping?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes, we offer international shipping to customers around the world. Shipping time may vary upon country. Please view your order at Checkout to see more information on Currency Exchange and Shipping Rates.<\/p>",
+            "page": ""
+          }
+        },
+        "910c3b88-b97c-46f2-9d3f-aa3463d7454c": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are the artworks on your website limited editions?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "27193a98-74cc-44ff-a138-731bee631787": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I stay updated on new artwork releases and promotions?",
+            "icon": "check_mark",
+            "row_content": "<p>To stay informed about our latest artwork releases, promotions, and news, we encourage you to subscribe to our newsletter. You can do this by entering your email address in the Subscribe section at the bottom of our website's pages. <\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -60,7 +105,12 @@
         "template--18868982284591__346357d0-2bdc-4de6-aa8f-cd85a4f289d2-collapsible_row-2",
         "template--18868982284591__346357d0-2bdc-4de6-aa8f-cd85a4f289d2-collapsible_row-3",
         "template--18868982284591__346357d0-2bdc-4de6-aa8f-cd85a4f289d2-collapsible_row-4",
-        "dac3eb69-e770-43fb-973d-79059c2b65e5"
+        "dac3eb69-e770-43fb-973d-79059c2b65e5",
+        "346d37a4-50f9-4038-92fb-f9a56bc5100d",
+        "b9632400-fd81-4f11-867a-ac679013c7fb",
+        "b07e0599-318e-4927-85af-38e453b8e996",
+        "910c3b88-b97c-46f2-9d3f-aa3463d7454c",
+        "27193a98-74cc-44ff-a138-731bee631787"
       ],
       "settings": {
         "caption": "",
