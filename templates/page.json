@@ -6,26 +6,17 @@
         "page_title": ""
       }
     },
-    "867a7435-b821-41e1-a977-17a3759bbb2f": {
-      "type": "cus-gallery-sec",
-      "blocks": {
-        "538b6c85-59e4-4415-ad29-985bd1f477e6": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/5.png"
-          }
-        }
-      },
-      "block_order": [
-        "538b6c85-59e4-4415-ad29-985bd1f477e6"
-      ],
+    "53d8872f-2e8b-4683-9df2-e656465991b7": {
+      "type": "cus-product-sec",
       "settings": {
-        "title": ""
+        "title": "",
+        "collection": "art-work",
+        "my_select_field": "option1"
       }
     }
   },
   "order": [
     "main",
-    "867a7435-b821-41e1-a977-17a3759bbb2f"
+    "53d8872f-2e8b-4683-9df2-e656465991b7"
   ]
 }
