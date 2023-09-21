@@ -3,7 +3,7 @@
     "67f45704-b28f-46d7-9c95-f8d80b7e7b78": {
       "type": "cus-banner",
       "blocks": {
-        "cb206347-5883-456e-a8bb-0b48374655e0": {
+        "8bd92c27-f983-48d2-a2b6-16adf18609d5": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/b1.jpg",
@@ -11,27 +11,27 @@
             "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has.<\/p>"
           }
         },
-        "bcb039d1-094c-4206-93fb-611829338de2": {
+        "18a101ee-7edc-48dc-944e-92a68a15e3b4": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/b1.jpg",
+            "image": "shopify:\/\/shop_images\/2_9abaaf6a-3181-4e74-b687-a41bcf7417f8.jpg",
             "sub_title": "Welcome To our website",
             "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has.<\/p>"
           }
         },
-        "f74534b7-9a5b-4781-8aac-e6c71929bf5c": {
+        "aa9fcb8d-9244-45ee-8038-7ffadad25570": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/b1.jpg",
+            "image": "shopify:\/\/shop_images\/3_2b2938e9-e136-488d-97bb-ed1e8af2da17.jpg",
             "sub_title": "Welcome To our website",
             "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has.<\/p>"
           }
         }
       },
       "block_order": [
-        "cb206347-5883-456e-a8bb-0b48374655e0",
-        "bcb039d1-094c-4206-93fb-611829338de2",
-        "f74534b7-9a5b-4781-8aac-e6c71929bf5c"
+        "8bd92c27-f983-48d2-a2b6-16adf18609d5",
+        "18a101ee-7edc-48dc-944e-92a68a15e3b4",
+        "aa9fcb8d-9244-45ee-8038-7ffadad25570"
       ],
       "settings": {
       }
