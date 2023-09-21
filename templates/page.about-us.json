@@ -6,20 +6,70 @@
         "page_title": ""
       }
     },
-    "5a44bfb3-ed95-4fd2-913e-852cada2dbdb": {
-      "type": "about-page-sec",
+    "346357d0-2bdc-4de6-aa8f-cd85a4f289d2": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--18868982284591__346357d0-2bdc-4de6-aa8f-cd85a4f289d2-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is Modern Artz?",
+            "icon": "check_mark",
+            "row_content": "<p> Modern Artz<br\/>is an online platform showcasing custom artwork created by Kenny Konglomerate.<br\/>We specialize in curating custom artwork for customers all around the globe in<br\/>attempts to bridge the gap between hip hop and modern art. <\/p>",
+            "page": ""
+          }
+        },
+        "template--18868982284591__346357d0-2bdc-4de6-aa8f-cd85a4f289d2-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I purchaseartwork from your website?",
+            "icon": "check_mark",
+            "row_content": "<p>To purchase artwork, simply visit the Art Gallery section of our website. Browse through our collections, select the artwork you love, select a material and size. Then, click the add to cart button and follow the checkout process<\/p>",
+            "page": ""
+          }
+        },
+        "template--18868982284591__346357d0-2bdc-4de6-aa8f-cd85a4f289d2-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--18868982284591__346357d0-2bdc-4de6-aa8f-cd85a4f289d2-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18868982284591__346357d0-2bdc-4de6-aa8f-cd85a4f289d2-collapsible_row-1",
+        "template--18868982284591__346357d0-2bdc-4de6-aa8f-cd85a4f289d2-collapsible_row-2",
+        "template--18868982284591__346357d0-2bdc-4de6-aa8f-cd85a4f289d2-collapsible_row-3",
+        "template--18868982284591__346357d0-2bdc-4de6-aa8f-cd85a4f289d2-collapsible_row-4"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/about-img_022e7965-830f-4cf4-a028-bdf1a988c6f3.jpg",
-        "title": "ABOUT US",
-        "content": "<p>Kenny Kenglomerate is a Digital Creator and entrepreneur residing in the heart of Queens. With a background in Visual Arts and a keen eye to formulate concepts that will stimulate the viewer and keep them captivated. <\/p><p>The artist known as Kenglomerate is breaking new ground with his eccentric style and taking photo manipulation to the next level. Developing this style and skill of artistic precision, so early in his<br\/>career allowed him to coin a phrase \"Mindtography\" as a technique used to create his pieces. A mindtographer can be described as a photo illusionist that creates aesthetic forms of art in a digital format; creating unbelievable visuals that merge between worlds of fantasy and reality.<\/p>",
-        "image_1": "shopify:\/\/shop_images\/cid_f_lf96vy303.jpg",
-        "title_1": "MEANING OF THE TATTOO",
-        "content_1": "<p>Tattoos often represent feelings and thoughts that are unspoken or trapped in ones self consciousness battling ill at easement. In my case the signature body art hand tattoo - CREATE was totally the opposite. The crossroads of my Hip Hop journey instilled a sense of psychological resilience which allowed my imagination, and dreams to manifest freely. Simply put… tattoos are permanent, but the tattoo CREATE symbolizes<br\/>evolving endlessly. The placement on the hand is in relation to giving back orsharing GODS gifts with the world. ~ Kenglomerate<\/p>"
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "5a44bfb3-ed95-4fd2-913e-852cada2dbdb"
+    "346357d0-2bdc-4de6-aa8f-cd85a4f289d2"
   ]
 }
