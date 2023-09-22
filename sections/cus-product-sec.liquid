@@ -14,7 +14,14 @@
                         <div class="wishlist">
                             <i class="far fa-heart"></i>
                         </div>
-                        <img src="{{ product.featured_image.src | img_url: 'large' }}" alt="">
+                      
+                      <img src="{{ product.featured_image.src | img_url: 'large' }}" alt="">
+                      
+                      {% if product.images.size > 0 %}
+                        <img src="{{ product.images[0].src | product_img_url: 'large' }}">
+                      {% endif %}
+                     
+                        
                     </div>
                     <div class="product-content">
                         <h3>{{ product.title }}</h3>
