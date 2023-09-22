@@ -18,7 +18,7 @@
                       <img src="{{ product.featured_image.src | img_url: 'large' }}" alt="">
                       
                       {% if product.images.size > 0 %}
-                        <img src="{{ product.images[0].src | product_img_url: 'large' }}">
+                        <img src="{{ product.images[1].src | product_img_url: 'large' }}">
                       {% endif %}
                      
                         
