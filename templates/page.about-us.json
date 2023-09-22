@@ -112,6 +112,7 @@
         "910c3b88-b97c-46f2-9d3f-aa3463d7454c",
         "27193a98-74cc-44ff-a138-731bee631787"
       ],
+      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "Frequently Asked Questions",
@@ -126,10 +127,19 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "9bb94637-dedd-4e09-937d-983a3e146118": {
+      "type": "cus-about-sec",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about-img_022e7965-830f-4cf4-a028-bdf1a988c6f3.jpg",
+        "title": "Our Story",
+        "content": "<p>Kenny Kenglomerate is a Digital Creator and entrepreneur residing in the heart of Queens. With a background in Visual Arts<br\/>and a keen eye to formulate concepts that will stimulate the viewer and keep them captivated. <\/p><p>The artist known as Kenglomerate is breaking new ground with his eccentric style and taking photo manipulation to the next level. Developing this style and skill of artistic precision, so early in his<br\/>career allowed him to coin a phrase \"Mindtography\" as a technique used to create his pieces. A mindtographer can be described as a photo illusionist that creates aesthetic forms of art in a digital format; creating unbelievable visuals that merge between worlds of fantasy and reality. <\/p>"
+      }
     }
   },
   "order": [
     "main",
-    "346357d0-2bdc-4de6-aa8f-cd85a4f289d2"
+    "346357d0-2bdc-4de6-aa8f-cd85a4f289d2",
+    "9bb94637-dedd-4e09-937d-983a3e146118"
   ]
 }
