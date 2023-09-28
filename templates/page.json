@@ -5,9 +5,19 @@
       "settings": {
         "page_title": ""
       }
+    },
+    "f1a38feb-af73-429f-a42e-72acf4301cbb": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"cz-embed-gallery\" id=\"cz-embed-gallery50087\"><!-- ALWAYS KEEP THIS EMPTY --><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "f1a38feb-af73-429f-a42e-72acf4301cbb"
   ]
 }
