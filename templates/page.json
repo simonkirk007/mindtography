@@ -5,18 +5,9 @@
       "settings": {
         "page_title": ""
       }
-    },
-    "53d8872f-2e8b-4683-9df2-e656465991b7": {
-      "type": "cus-product-sec",
-      "settings": {
-        "title": "",
-        "collection": "art-work",
-        "my_select_field": "option1"
-      }
     }
   },
   "order": [
-    "main",
-    "53d8872f-2e8b-4683-9df2-e656465991b7"
+    "main"
   ]
 }
