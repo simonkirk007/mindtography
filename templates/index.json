@@ -78,11 +78,10 @@
         },
         "05f632ab-104d-4726-89d7-49c171342605": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image_product": "shopify:\/\/shop_images\/contebt-slider-img.png",
             "title": "PLACE YOUR TITLE HERE",
-            "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has <br\/><\/p>",
+            "content": "<p>Working with Kool G Rap has given Kenny a first hand glimpse into the mind of a mad man, which enhanced his ability to be creative with visual art as Kool G Rap is with his poetic storytelling.Being a part of a unit of trendsetters known as the Juice Crew the elements of hip hop seemed to be transfused in the bloodstream of Kenglomerate, making him a huge lover of the arts. Emerging from the inner city of New York known as Queens, there's a popular saying that Queens get the money, “QGTM”, and that has always been the mindset. Kool G Rap and two dancers known as Shawn and Kenny have lived by this motto and still remain on the Road To The Riches till this present day. This masterpiece depicts the rapper as an underworld crime boss on the hunt for money and power. The red tint symbolizes the dangers that we face in the urban streets. The repeated Gucci pattern in the shirt represents all the times that Kool G has inspired the generations after him with his creativity, making him your favorite rapper's, favorite rapper. <\/p>",
             "button_text": "learn more",
             "button_url": "#"
           }
