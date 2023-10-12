@@ -78,6 +78,7 @@
         },
         "05f632ab-104d-4726-89d7-49c171342605": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image_product": "shopify:\/\/shop_images\/contebt-slider-img.png",
             "title": "PLACE YOUR TITLE HERE",
