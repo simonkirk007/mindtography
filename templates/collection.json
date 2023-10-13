@@ -40,12 +40,56 @@
         "collection": "merchandise",
         "my_select_field": "option1"
       }
+    },
+    "b57ac4e2-0211-4b5e-b8f3-b2dcfdf96ff5": {
+      "type": "inner-slider",
+      "blocks": {
+        "template--18839822172463__b57ac4e2-0211-4b5e-b8f3-b2dcfdf96ff5-column-1": {
+          "type": "column",
+          "settings": {
+            "image_product": "shopify:\/\/shop_images\/0_2eb2ff30-cd8f-42e3-96c3-1b492c80f396.jpg",
+            "title": "Merchandise",
+            "content": "",
+            "button_text": "Collections",
+            "button_url": ""
+          }
+        },
+        "template--18839822172463__b57ac4e2-0211-4b5e-b8f3-b2dcfdf96ff5-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Merchandise",
+            "content": "<p>Collections<\/p>",
+            "button_text": "Collections",
+            "button_url": ""
+          }
+        },
+        "template--18839822172463__b57ac4e2-0211-4b5e-b8f3-b2dcfdf96ff5-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Merchandise",
+            "content": "<p>Collections<\/p>",
+            "button_text": "Collections",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18839822172463__b57ac4e2-0211-4b5e-b8f3-b2dcfdf96ff5-column-1",
+        "template--18839822172463__b57ac4e2-0211-4b5e-b8f3-b2dcfdf96ff5-column-2",
+        "template--18839822172463__b57ac4e2-0211-4b5e-b8f3-b2dcfdf96ff5-column-3"
+      ],
+      "settings": {
+        "button_text": "Collections",
+        "button_link": "",
+        "my_select_field": "option1"
+      }
     }
   },
   "order": [
     "banner",
     "product-grid",
     "b6c6bc1b-6129-44b9-8350-87bcb048cd6f",
-    "fc1006bc-341b-43d1-bf25-dbfaaa2e82b5"
+    "fc1006bc-341b-43d1-bf25-dbfaaa2e82b5",
+    "b57ac4e2-0211-4b5e-b8f3-b2dcfdf96ff5"
   ]
 }
