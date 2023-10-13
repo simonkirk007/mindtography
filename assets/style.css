@@ -2012,3 +2012,6 @@ span.footsocial-links.text-dark a {
 .product-inner-item:hover .prod-second-img {
     opacity: 1;
 }
+.header-menu ul li a {
+  font-family: "time new roman" !Important;
+}
