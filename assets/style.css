@@ -2038,3 +2038,13 @@ span.footsocial-links.text-dark a {
   object-fit: cover;
   object-position: top;
 }
+
+.inner_banner_con h3 {
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 20%);
+}
