@@ -1,3 +1,55 @@
+<section class="inner_banner_slider">
+  <div class="inner_slider">
+    <div class="inner_slider_item">
+      <div class="inner_main">
+        <div class="inner_img">
+           <img src="{{ block.settings.image_product | img_url: 'master' }}" alt="">
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+                <div class="inner_banner_con">
+                <h3>{{ block.settings.title }}</h3>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="inner_slider_item">
+      <div class="inner_main">
+        <div class="inner_img">
+           <img src="{{ block.settings.image_product | img_url: 'master' }}" alt="">
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+                <div class="inner_banner_con">
+                <h3>{{ block.settings.title }}</h3>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="inner_slider_item">
+      <div class="inner_main">
+        <div class="inner_img">
+           <img src="{{ block.settings.image_product | img_url: 'master' }}" alt="">
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+                <div class="inner_banner_con">
+                <h3>{{ block.settings.title }}</h3>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
@@ -6,7 +58,7 @@
 
 {% schema %}
     {
-      "name": "Cus Content Slider",
+      "name": "Cus inner Slider",
       "tag": "section",
       "class": "announcement-bar-section",
       "blocks": [
@@ -22,7 +74,7 @@
             {
               "type": "text",
               "id": "title",
-              "default": "Collections",
+              "default": "Merchandise",
               "label": "Title"
             },
             {
@@ -74,7 +126,7 @@
     ],
     "presets": [
         {
-          "name": "Cus Content Slider",
+          "name": "Cus inner Slider",
           "blocks": [
           {
             "type": "column"
