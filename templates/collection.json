@@ -47,7 +47,7 @@
         "template--18839822172463__b57ac4e2-0211-4b5e-b8f3-b2dcfdf96ff5-column-1": {
           "type": "column",
           "settings": {
-            "image_product": "shopify:\/\/shop_images\/0_2eb2ff30-cd8f-42e3-96c3-1b492c80f396.jpg",
+            "image": "shopify:\/\/shop_images\/0_2eb2ff30-cd8f-42e3-96c3-1b492c80f396.jpg",
             "title": "Merchandise",
             "content": "",
             "button_text": "Collections",
@@ -57,6 +57,7 @@
         "template--18839822172463__b57ac4e2-0211-4b5e-b8f3-b2dcfdf96ff5-column-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/0_2eb2ff30-cd8f-42e3-96c3-1b492c80f396.jpg",
             "title": "Merchandise",
             "content": "<p>Collections<\/p>",
             "button_text": "Collections",
@@ -66,6 +67,7 @@
         "template--18839822172463__b57ac4e2-0211-4b5e-b8f3-b2dcfdf96ff5-column-3": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/0_2eb2ff30-cd8f-42e3-96c3-1b492c80f396.jpg",
             "title": "Merchandise",
             "content": "<p>Collections<\/p>",
             "button_text": "Collections",
