@@ -1,9 +1,11 @@
 <section class="inner_banner_slider">
   <div class="inner_slider">
+
+    {%- for block in section.blocks -%}
     <div class="inner_slider_item">
       <div class="inner_main">
         <div class="inner_img">
-           <img src="{{ block.settings.image1 | img_url: 'master' }}" alt="{{ image.alt | escape }}">
+           <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ image.alt | escape }}">
         </div>
         <div class="container">
           <div class="row">
@@ -16,38 +18,8 @@
         </div>
       </div>
     </div>
-    <div class="inner_slider_item">
-      <div class="inner_main">
-        <div class="inner_img">
-          <img src="{{ block.settings.image2 | img_url: 'master' }}" alt="{{ image.alt | escape }}">
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-                <div class="inner_banner_con">
-                <h3>{{ block.settings.title }}</h3>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="inner_slider_item">
-      <div class="inner_main">
-        <div class="inner_img">
-          <img src="{{ block.settings.image3 | img_url: 'master' }}" alt="{{ image.alt | escape }}">
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-                <div class="inner_banner_con">
-                <h3>{{ block.settings.title }}</h3>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+      {%- endfor -%}
+
   </div>
 </section>
 
