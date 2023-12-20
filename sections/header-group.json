@@ -37,10 +37,22 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "3e8f799e-762b-49ab-b459-fffd2e3f3d15": {
+      "type": "cus-product-sec",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "ArtWork",
+        "collection": "",
+        "my_select_field": "option1"
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "3e8f799e-762b-49ab-b459-fffd2e3f3d15"
   ]
 }
